@@ -1,0 +1,53 @@
+::deep .item {
+    background-image: url('./images/slot_selection_bg.jpg');
+    background-position: left top;
+    background-repeat: round;
+    background-size: cover;
+    height: 10vh;
+    width: 65vw;
+    flex: 1;
+}
+
+.slot {
+    display: flex;
+}
+
+::deep .item:hover, .slot.selected {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.6),
+    inset 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+::deep .item .image {
+    width: 14%;
+    margin: 1.5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+::deep .text {
+    display: flex;
+    justify-content: center;
+}
+
+::deep .text > * + * {
+    margin-top: 1rem;
+}
+
+::deep .first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+
+::deep .first > * + * {
+    margin-left: 1rem;
+}
+
+::deep .second {
+    padding-right: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}

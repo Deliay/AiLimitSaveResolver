@@ -1,0 +1,29 @@
+.upload {
+    background-image: url("./images/frame_960x400_bg_trim.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 960px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.error {
+    color: red;
+}
+
+::deep input[type=file] {
+    display: none;
+}
+
+.upload-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+

@@ -1,0 +1,15 @@
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul > li + li {
+    margin-top: 1rem;
+}
+
+ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}

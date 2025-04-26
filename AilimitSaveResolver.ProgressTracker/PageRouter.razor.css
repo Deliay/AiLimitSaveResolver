@@ -1,0 +1,6 @@
+.content {
+    height: var(--content-height);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}

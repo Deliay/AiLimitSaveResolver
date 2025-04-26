@@ -1,0 +1,65 @@
+@typeparam T where T : notnull
+
+<div class="@ContainerClass" @onclick="OnSelectClicked">@(SelectTemplate(_currentSelectContext))</div>
+@if (_currentSelectContext.IsOpened)
+{
+    <ul class="@ListClass">
+        @foreach (var item in Items)
+        {
+            <li class="@ListItemClass" @onclick="OnItemClick(item)">
+                @(OptionTemplate(new OptionContext(item, item!.Equals(Selected))))
+            </li>
+        }
+    </ul>
+}
+
+@code {
+
+    
+    [Parameter] public List<T> Items { get; set; } = [];
+    [Parameter] public T? Selected { get; set; }
+    [Parameter] public Func<T, Task>? SelectedChanged { get; set; }
+
+    [Parameter] public required RenderFragment<OptionContext> OptionTemplate { get; set; }
+    [Parameter] public required RenderFragment<SelectContext> SelectTemplate { get; set; }
+
+    public readonly record struct SelectContext(T? Item, bool IsOpened);
+    public readonly record struct OptionContext(T Item, bool IsSelected);
+    
+    [Parameter] public string ContainerClass { get; set; }
+    [Parameter] public string ListClass { get; set; }
+    [Parameter] public string ListItemClass { get; set; }
+
+    private SelectContext _currentSelectContext;
+
+    protected override void OnParametersSet()
+    {
+        if (Items.Count <= 0 || Selected is not null) return;
+        
+        Selected = Items[0];
+        _currentSelectContext = new SelectContext(Selected, false);
+    }
+
+    private void InvertState()
+    {
+        _currentSelectContext = new SelectContext(Selected, !_currentSelectContext.IsOpened);
+    }
+
+    private Task OnSelectClicked(MouseEventArgs _)
+    {
+        InvertState();
+        return InvokeAsync(StateHasChanged);
+    }
+
+    private Func<MouseEventArgs, Task> OnItemClick(T item)
+    {
+        return async (_) =>
+        {
+            Selected = item;
+            InvertState();
+            await (SelectedChanged?.Invoke(item) ?? Task.CompletedTask);
+            await InvokeAsync(StateHasChanged);
+        };
+    }
+
+}

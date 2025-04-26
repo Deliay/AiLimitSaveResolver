@@ -1,0 +1,33 @@
+@using System.Globalization
+@using AilimitSaveResolver.Save
+@using AilimitSaveResolver.Save.Generated
+@inject IStringLocalizer<BladerText> Localizer
+<div class="slot @(IsSelected ? "selected" : "")">
+    <LimitListItem ImageSrc="@($"./images/branches/{BranchId}.jpg")" >
+        <FirstLine>
+            <div>
+                @Localizer["Level", $"{Slot.Level:000}"]
+            </div>
+            <div>
+                @Localizer["Duration", $"{Slot.PlayDuration.Hours:00}:{Slot.PlayDuration.Minutes:00}:{Slot.PlayDuration.Seconds:00}"]
+            </div>
+            <div>
+                @Localizer["Cycle", Slot.GameCycle]
+            </div>
+        </FirstLine>
+        <SecondLine>
+            @Localizer["LastPlayedAt", new DateTime(
+                (int)Slot.LastPlayedAt.Year,
+                (int)Slot.LastPlayedAt.Month,
+                (int)Slot.LastPlayedAt.Day,
+                (int)Slot.LastPlayedAt.Hour,
+                (int)Slot.LastPlayedAt.Minute, 0).ToString(CultureInfo.CurrentCulture)]
+        </SecondLine>
+    </LimitListItem>
+</div>
+@code {
+    [Parameter] public required SaveSlot Slot { get; set; }
+    [Parameter] public bool IsSelected { get; set; }
+
+    private uint BranchId => KnownRespawnPoint.GetNearest(Slot.RespawnPointIndex).Index;
+}

@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Lagrange.Proto" Version="1.0.2" />
+      <PackageReference Include="Lagrange.Proto.Generator" Version="1.0.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="protobuf-net" Version="3.2.52" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Data\ItemIds.json" />
+      <EmbeddedResource Include="Data\ItemIds.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="Data\WeaponIds.json" />
+      <EmbeddedResource Include="Data\WeaponIds.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="Data\NucleusIds.json" />
+      <EmbeddedResource Include="Data\NucleusIds.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="Data\SealIds.json" />
+      <EmbeddedResource Include="Data\SealIds.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="Data\SpellIds.json" />
+      <EmbeddedResource Include="Data\SpellIds.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="Data\ClothesIds.json" />
+      <EmbeddedResource Include="Data\ClothesIds.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="Data\HeadwearIds.json" />
+      <EmbeddedResource Include="Data\HeadwearIds.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="Data\SkillIds.json" />
+      <EmbeddedResource Include="Data\SkillIds.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="Data\WeaponClasses.json" />
+      <EmbeddedResource Include="Data\WeaponClasses.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </EmbeddedResource>
+    </ItemGroup>
+
+</Project>

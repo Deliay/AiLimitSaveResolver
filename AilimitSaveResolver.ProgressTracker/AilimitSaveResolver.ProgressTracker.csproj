@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.4" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.4" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.Extensions.Localization" Version="9.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AilimitSaveResolver.Save\AilimitSaveResolver.Save.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Locales\LayoutText.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Menu.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Locales\BladerText.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Blader.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Locales\LayoutText.en.resx">
+        <DependentUpon>LayoutText.resx</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Locales\BladerText.en.resx">
+        <DependentUpon>BladerText.resx</DependentUpon>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Locales\LayoutText.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>LayoutText.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Locales\BladerText.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>BladerText.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>

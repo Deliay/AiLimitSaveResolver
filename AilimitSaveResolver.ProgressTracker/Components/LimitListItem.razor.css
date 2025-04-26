@@ -1,0 +1,11 @@
+.item {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    z-index: 1;
+}

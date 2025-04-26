@@ -1,0 +1,52 @@
+.blader {
+    background-image: url("./images/Bg_Body_D1.webp");
+    width: 65vw;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: stretch;
+    flex-wrap: wrap;
+
+}
+
+.blader > .card {
+    background-image: url(./images/frame_960x400_bg_trim.webp);
+    background-repeat: round;
+    background-size: cover;
+    background-position: top left;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 2rem 2.5rem;
+    height: fit-content;
+}
+
+.card > div {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+
+.card > div + div {
+    margin-top: 0.25rem;
+}
+
+.card img {
+    height: 1rem;
+}
+
+.blader-main {
+    display: flex;
+    flex-direction: column;
+}

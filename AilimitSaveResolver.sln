@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{703CD76D-B6CE-477F-B64C-BFBC95F3CE99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AilimitSaveResolver.Save", "AilimitSaveResolver.Save\AilimitSaveResolver.Save.csproj", "{74AF6E98-BCF8-4DC9-8B53-55EE83D4E4A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AilimitSaveResolver.ProgressTracker", "AilimitSaveResolver.ProgressTracker\AilimitSaveResolver.ProgressTracker.csproj", "{B8B9AAE4-9AD1-4B95-8BAA-8A309D3C18AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{703CD76D-B6CE-477F-B64C-BFBC95F3CE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703CD76D-B6CE-477F-B64C-BFBC95F3CE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703CD76D-B6CE-477F-B64C-BFBC95F3CE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703CD76D-B6CE-477F-B64C-BFBC95F3CE99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AF6E98-BCF8-4DC9-8B53-55EE83D4E4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AF6E98-BCF8-4DC9-8B53-55EE83D4E4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AF6E98-BCF8-4DC9-8B53-55EE83D4E4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AF6E98-BCF8-4DC9-8B53-55EE83D4E4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B9AAE4-9AD1-4B95-8BAA-8A309D3C18AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B9AAE4-9AD1-4B95-8BAA-8A309D3C18AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B9AAE4-9AD1-4B95-8BAA-8A309D3C18AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B9AAE4-9AD1-4B95-8BAA-8A309D3C18AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

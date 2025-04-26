@@ -1,0 +1,13 @@
+﻿<div class="page">
+    <main>
+        <CascadingSaveSlot>
+            <NavBar @bind-Selected="@SelectedPage"></NavBar>
+            <PageRouter CurrentPage="@SelectedPage"></PageRouter>
+        </CascadingSaveSlot>
+    </main>
+</div>
+
+@code
+{
+    private string SelectedPage = "Blader";
+}

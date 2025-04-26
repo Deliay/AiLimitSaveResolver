@@ -1,0 +1,200 @@
+[
+  {
+    "Name": "机兵长剑",
+    "Class": "Sword_Blader",
+    "SkillId": 11,
+    "WeaponId": 11
+  },
+  {
+    "Name": "镐",
+    "Class": "Sword_Pickaxe",
+    "SkillId": 12,
+    "WeaponId": 67
+  },
+  {
+    "Name": "圣仪",
+    "Class": "Sword_Sanctification",
+    "SkillId": 13,
+    "WeaponId": 221
+  },
+  {
+    "Name": "锈蚀长剑",
+    "Class": "Sword_Broken",
+    "SkillId": 14,
+    "WeaponId": 341
+  },
+  {
+    "Name": "晨霜",
+    "Class": "Sword_Loskid",
+    "SkillId": 15,
+    "WeaponId": 100
+  },
+  {
+    "Name": "精制钢刀",
+    "Class": "Sword_Robot",
+    "SkillId": 16,
+    "WeaponId": 275
+  },
+  {
+    "Name": "淬毒钢刀",
+    "Class": "Sword_Fisherman",
+    "SkillId": 17,
+    "WeaponId": 286
+  },
+  {
+    "Name": "侵蚀机兵长剑",
+    "Class": "Sword_Necromancer",
+    "SkillId": 18,
+    "WeaponId": 242
+  },
+  {
+    "Name": "生锈铁棒",
+    "Class": "Sword_WaterPipe",
+    "SkillId": 19,
+    "WeaponId": 45
+  },
+  {
+    "Name": "机兵对剑",
+    "Class": "DoubleSwords_Blader",
+    "SkillId": 21,
+    "WeaponId": 22
+  },
+  {
+    "Name": "猎人双刀",
+    "Class": "DoubleSwords_HunterBlades",
+    "SkillId": 22,
+    "WeaponId": 308
+  },
+  {
+    "Name": "侵蚀机兵对剑",
+    "Class": "DoubleSwords_Necro",
+    "SkillId": 23,
+    "WeaponId": 253
+  },
+  {
+    "Name": "收割者",
+    "Class": "DoubleSwords_Reaper.",
+    "SkillId": 24,
+    "WeaponId": 78
+  },
+  {
+    "Name": "碎骨者",
+    "Class": "DoubleSwords_Sawtoot",
+    "SkillId": 25,
+    "WeaponId": 165
+  },
+  {
+    "Name": "成对钢斧",
+    "Class": "DoubleSwords_Fireaxe",
+    "SkillId": 26,
+    "WeaponId": 143
+  },
+  {
+    "Name": "负鼠十手",
+    "Class": "Tachi_Sais",
+    "SkillId": 27,
+    "WeaponId": 297
+  },
+  {
+    "Name": "废铁长枪",
+    "Class": "",
+    "SkillId": 30,
+    "WeaponId": 132
+  },
+  {
+    "Name": "裁决者",
+    "Class": "Halberd_Loskid",
+    "SkillId": 31,
+    "WeaponId": 89
+  },
+  {
+    "Name": "生铁大剑",
+    "Class": "Halberd_OldBlader",
+    "SkillId": 32,
+    "WeaponId": 352
+  },
+  {
+    "Name": "路牌",
+    "Class": "Halberd_RoadSign",
+    "SkillId": 33,
+    "WeaponId": 309
+  },
+  {
+    "Name": "锯齿长戟",
+    "Class": "Halberd_Robot",
+    "SkillId": 34,
+    "WeaponId": 66
+  },
+  {
+    "Name": "赦罪者",
+    "Class": "Halberd_Sickle",
+    "SkillId": 35,
+    "WeaponId": 154
+  },
+  {
+    "Name": "机兵大剑",
+    "Class": "Halberd_Blader",
+    "SkillId": 36,
+    "WeaponId": 33
+  },
+  {
+    "Name": "骑士长枪",
+    "Class": "Halberd_CleansingKnight",
+    "SkillId": 37,
+    "WeaponId": 220
+  },
+  {
+    "Name": "侵蚀机兵大剑",
+    "Class": "Helberd_Necro",
+    "SkillId": 38,
+    "WeaponId": 330
+  },
+  {
+    "Name": "朽叶长枪",
+    "Class": "Halberd_DecayedLeaf",
+    "SkillId": 39,
+    "WeaponId": 264
+  },
+  {
+    "Name": "废铁长枪",
+    "Class": "Halberd_Lore",
+    "SkillId": 41,
+    "WeaponId": 132
+  },
+  {
+    "Name": "慈爱",
+    "Class": "Tachi_Mercy",
+    "SkillId": 42,
+    "WeaponId": 177
+  },
+  {
+    "Name": "红鹿",
+    "Class": "Tachi_RedDeer",
+    "SkillId": 43,
+    "WeaponId": 34
+  },
+  {
+    "Name": "唯物主义",
+    "Class": "Tachi_Materialism",
+    "SkillId": 44,
+    "WeaponId": 166
+  },
+  {
+    "Name": "深渊之触",
+    "Class": "Glaves_Necro",
+    "SkillId": 51,
+    "WeaponId": 121
+  },
+  {
+    "Name": "冲击钻",
+    "Class": "Glaves_ImpactSpikes",
+    "SkillId": 52,
+    "WeaponId": 198
+  },
+  {
+    "Name": "圣拥",
+    "Class": "Glaves_HolyEmbrace",
+    "SkillId": 53,
+    "WeaponId": 209
+  }
+]

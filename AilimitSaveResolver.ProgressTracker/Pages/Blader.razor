@@ -1,0 +1,108 @@
+@using AilimitSaveResolver.Save.Generated
+@using AilimitSaveResolver.ProgressTracker.Components
+@using AilimitSaveResolver.Save.Data
+@inject IStringLocalizer<BladerText> Localizer
+@inject CascadingSaveSlotProvider Provider
+
+<div class="blader-main">
+    <div class="select-save">
+        <p>@Localizer["SelectBlader"]</p>
+
+        <ZSelect Items="Data.SaveSlots" Selected="_selectedSaveSlot" SelectedChanged="Callback">
+            <OptionTemplate>
+                <SlotItem Slot="context.Item" IsSelected="context.IsSelected"></SlotItem>
+            </OptionTemplate>
+            <SelectTemplate>
+                @if (context.Item is { } item)
+                {
+                    <SlotItem Slot="context.Item"></SlotItem>
+                }
+                else
+                {
+                    <p>点击选择</p>
+                }
+            </SelectTemplate>
+        </ZSelect>
+    </div>
+    <SaveSlotView>
+        <SelectedSlot>
+            <div class="blader">
+                <div class="card">
+                    <h4>@Localizer["Character"]</h4>
+                    <div><p>@Localizer["LP"]</p><p>@context.Slot!.Health</p></div>
+                    <div><p>@Localizer["SyncRate"]</p><p>@context.Slot!.SyncRate</p></div>
+                    <div><p><img src="./images/hud_crystal_icon.png" alt="branches" />@Localizer["Crystals"]</p><p>@context.Slot!.FragmentBranchAmount</p></div>
+                </div>
+                <div class="card">
+                    <h4>@Localizer["Attribute"]</h4>
+                    <div><p>@Localizer["Life"]</p><p>@context.Slot!.Attributes.Life.Level</p></div>
+                    <div><p>@Localizer["Vitality"]</p><p>@context.Slot!.Attributes.Vitality.Level</p></div>
+                    <div><p>@Localizer["Strength"]</p><p>@context.Slot!.Attributes.Strength.Level</p></div>
+                    <div><p>@Localizer["Technique"]</p><p>@context.Slot!.Attributes.Technique.Level</p></div>
+                    <div><p>@Localizer["Spirit"]</p><p>@context.Slot!.Attributes.Spirit.Level</p></div>
+                </div>
+                <div class="card">
+                    <h4>@Localizer["AchievementCollect"]</h4>
+                    <div>
+                        <p>@Localizer["WeaponSkills"]</p>
+                        <p>@Localizer["{0}/{1}",
+                               @GetDistinctCount(context.Slot.Collected.SkillIds), Access.Data<SkillIds>().Count]</p>
+                    </div>
+                    <div>
+                        <p>@Localizer["Nuclei"]</p>
+                        <p>@Localizer["{0}/{1}",
+                               @GetDistinctCount(context.Slot.Collected.Nuclei), Access.Data<NucleusIds>().Count]</p>
+                    </div>
+                    <div>
+                        <p>@Localizer["Seals"]</p>
+                        <p>@Localizer["{0}/{1}",
+                               @GetDistinctCount(context.Slot.Collected.SealIds),
+                               Access.Data<SealIds>().Values.Select(p => p.Name).Distinct().Count()]</p>
+                    </div>
+                    <div>
+                        <p>@Localizer["Spells"]</p>
+                        <p>@Localizer["{0}/{1}",
+                               @GetDistinctCount(context.Slot.Collected.Spells), Access.Data<SpellIds>().Count]</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4>@Localizer["MiscCollect"]</h4>
+                    <div>
+                        <p>@Localizer["Clothes"]</p>
+                        <p>@Localizer["{0}/{1}",
+                               @GetDistinctCount(context.Slot.Collected.ClothesIds), Access.Data<ClothesIds>().Count]</p>
+                    </div>
+                    <div>
+                        <p>@Localizer["Headwears"]</p>
+                        <p>@Localizer["{0}/{1}",
+                               @GetDistinctCount(context.Slot.Collected.Headwears), Access.Data<HeadwearIds>().Count]</p>
+                    </div>
+                    <div>
+                        <p>@Localizer["Items"]</p>
+                        <p>@Localizer["{0}/{1}",
+                               @GetDistinctCount(context.Slot.Collected.ItemIds), Access.Data<ItemIds>().Count]</p>
+                    </div>
+                </div>
+            </div>
+        </SelectedSlot>
+    </SaveSlotView>
+</div>
+
+@code {
+    [Parameter] public required SaveData Data { get; set; }
+    private SaveSlot? _selectedSaveSlot = null;
+
+
+    private Task Callback(SaveSlot? obj)
+    {
+        if (obj is null) return Task.CompletedTask;
+        _selectedSaveSlot = obj;
+        Provider.NotifySaveSlotChanged(new SelectedSlot(obj));
+        return InvokeAsync(StateHasChanged);
+    }
+
+    private static int GetDistinctCount<T>(IEnumerable<T>? count)
+    {
+        return count is null ? 0 : count.Distinct().Count();
+    }
+}

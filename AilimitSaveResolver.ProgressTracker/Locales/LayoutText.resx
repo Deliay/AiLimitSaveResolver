@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Blader" xml:space="preserve">
+        <value>机兵</value>
+    </data>
+    <data name="Weapons" xml:space="preserve">
+        <value>武器</value>
+    </data>
+    <data name="Nuclei" xml:space="preserve">
+        <value>晶核</value>
+    </data>
+    <data name="Seals" xml:space="preserve">
+        <value>刻印</value>
+    </data>
+    <data name="Spells" xml:space="preserve">
+        <value>法术</value>
+    </data>
+    <data name="Branches" xml:space="preserve">
+        <value>晶枝</value>
+    </data>
+    <data name="Items" xml:space="preserve">
+        <value>物品</value>
+    </data>
+    <data name="Armors" xml:space="preserve">
+        <value>衣装</value>
+    </data>
+    <data name="TextFileProcessingFailed" xml:space="preserve">
+        <value>存档文件'{0}'处理失败，请上传正确的'ai-limit_sav-data.sav'文件！</value>
+    </data>
+    <data name="TextUploadTheSaveFile" xml:space="preserve">
+        <value>点击这里上传您的存档，或者将您的存档拖拽到这里</value>
+    </data>
+</root>

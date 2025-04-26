@@ -1,0 +1,35 @@
+@inject SaveLoader Loader
+@implements IDisposable
+<div class="content">
+    @switch (CurrentPage)
+    {
+        default:
+            if (Loader.Loaded)
+            {
+                <Blader Data="Loader.CurrentData" />
+            }
+            else
+            {
+                <UploadBlader />
+            }
+
+            break;
+    }
+</div>
+
+@code {
+    [Parameter] public required string CurrentPage { get; set; }
+
+    private IDisposable? _handler;
+
+    protected override void OnInitialized()
+    {
+        _handler = Loader.Subscribe(() => InvokeAsync(StateHasChanged));
+    }
+
+    public void Dispose()
+    {
+        _handler?.Dispose();
+    }
+
+}

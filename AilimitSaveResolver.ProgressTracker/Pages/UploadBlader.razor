@@ -1,0 +1,69 @@
+@inject IStringLocalizer<LayoutText> Localizer
+@inject SaveLoader Loader
+@inject IJSRuntime JsRuntime
+@implements IAsyncDisposable
+
+<div class="upload-container">
+    <label for="upload">
+        <div class="upload" @ref="_container">
+            <p>
+                <img width="64" height="64" src="images/icon_buff_conversion_up.png" alt="upload" />
+            </p>
+            <p>@(Localizer["TextUploadTheSaveFile"])</p>
+            @if (_displayError)
+            {
+                <p class="error">
+                    @(Localizer["TextFileProcessingFailed", _lastFile])
+                </p>
+            }
+            <InputFile id="upload" @ref="_uploader" OnChange="OnInputFileChanged">
+            </InputFile>
+        </div>
+    </label>
+</div>
+
+@code {
+
+    private bool _displayError = false;
+    private string _lastFile = "";
+    private ElementReference _container;
+    private InputFile? _uploader;
+    private IJSObjectReference? _module;
+    private IJSObjectReference? _dropZeonDisposable;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender && _uploader is not null)
+        {
+            _module = await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./Pages/UploadBlader.razor.js");
+
+            _dropZeonDisposable = await _module.InvokeAsync<IJSObjectReference>(
+                "initializeDropZone", _container, _uploader.Element);
+        }
+    }
+
+
+    private async Task OnInputFileChanged(InputFileChangeEventArgs obj)
+    {
+        _lastFile = obj.File.Name;
+        var succeed = await Loader.Load(obj.File);
+        _displayError = !succeed;
+
+        await InvokeAsync(StateHasChanged);
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (_dropZeonDisposable != null)
+        {
+            await _dropZeonDisposable.InvokeVoidAsync("dispose");
+            await _dropZeonDisposable.DisposeAsync();
+        }
+
+        if (_module != null)
+        {
+            await _module.DisposeAsync();
+        }
+    }
+
+}

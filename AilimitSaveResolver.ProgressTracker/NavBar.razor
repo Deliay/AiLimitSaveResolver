@@ -1,0 +1,43 @@
+@inject IStringLocalizer<LayoutText> Localizer
+@inject SaveLoader Loader
+
+<div class="top-row px-4">
+    <div class="menu">
+        @if (Loader.Loaded)
+        {
+            @foreach (var menuItem in MenuItems)
+            {
+                <a class="btn-link @(Selected == menuItem ? "active" : "")"
+                   @onclick="@(Callback(menuItem))">@(Localizer[menuItem])</a>
+            }
+        }
+        else
+        {
+            <a class="btn-link active">@(Localizer["Blader"])</a>
+        }
+    </div>
+    
+    <div class="tail">
+        <LanguageSelector></LanguageSelector>
+    </div>
+</div>
+
+@code {
+    private static readonly List<string> MenuItems = ["Blader", "Weapons", "Nuclei", "Seals", "Spells", "Branches", "Items"];
+    
+    [Parameter] public required string Selected { get; set; }
+    [Parameter] public EventCallback<string> SelectedChanged { get; set; }
+
+    private IDisposable? _handler;
+    
+    protected override void OnInitialized()
+    {
+        _handler = Loader.Subscribe(() => InvokeAsync(StateHasChanged));
+    }
+
+    private Func<MouseEventArgs, Task> Callback(string title)
+    {
+        return _ => SelectedChanged.InvokeAsync(title);
+    }
+
+}

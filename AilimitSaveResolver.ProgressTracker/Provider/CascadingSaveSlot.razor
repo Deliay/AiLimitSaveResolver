@@ -1,0 +1,31 @@
+@using AilimitSaveResolver.Save.Generated
+@implements IDisposable
+@inject CascadingSaveSlotProvider Provider
+
+<CascadingValue TValue="SelectedSlot" Value="selectedSlot">
+    @ChildContent
+</CascadingValue>
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [CascadingParameter] public SaveSlot? CurrentSaveSlot { get; set; }
+    private SelectedSlot selectedSlot = new(null);
+    protected override void OnInitialized()
+    {
+        if (CurrentSaveSlot is null)
+        {
+            Provider.SaveSlotChanged += ProviderOnSaveSlotChanged;
+        }
+    }
+
+    private void ProviderOnSaveSlotChanged(SelectedSlot slot)
+    {
+        selectedSlot = slot;
+        InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        Provider.SaveSlotChanged -= ProviderOnSaveSlotChanged;
+    }
+}

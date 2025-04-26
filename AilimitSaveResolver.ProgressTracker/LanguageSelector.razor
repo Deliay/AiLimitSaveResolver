@@ -1,0 +1,36 @@
+@using System.Globalization
+@inject IJSRuntime JsRuntime
+@inject NavigationManager Navigation
+
+<p>
+    <label>
+        <select @bind="_selectedCulture" @bind:after="ApplySelectedCultureAsync">
+            @foreach (var culture in _supportedCultures)
+            {
+                <option value="@culture">@culture.TwoLetterISOLanguageName</option>
+            }
+        </select>
+    </label>
+</p>
+
+@code
+{
+    private readonly CultureInfo[] _supportedCultures = [ new("zh-CN"), new("en-US") ];
+
+    private CultureInfo? _selectedCulture;
+
+    protected override void OnInitialized()
+    {
+        _selectedCulture = CultureInfo.CurrentCulture;
+    }
+
+    private async Task ApplySelectedCultureAsync()
+    {
+        if (CultureInfo.CurrentCulture != _selectedCulture)
+        {
+            await JsRuntime.InvokeVoidAsync("blazorCulture.set", _selectedCulture!.Name);
+
+            Navigation.NavigateTo(Navigation.Uri, forceLoad: true);
+        }
+    }
+}
