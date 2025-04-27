@@ -1,5 +1,6 @@
 @inject IStringLocalizer<LayoutText> Localizer
 @inject SaveLoader Loader
+@implements IDisposable
 
 <div class="top-row px-4">
     <div class="menu">
@@ -23,7 +24,7 @@
 </div>
 
 @code {
-    private static readonly List<string> MenuItems = ["Blader", "Weapons", "Nuclei", "Seals", "Spells", "Branches", "Items"];
+    private static readonly List<string> MenuItems = ["Blader", "Weapons", "Nuclei", "Seals", "Spells", "Items", "Branches"];
     
     [Parameter] public required string Selected { get; set; }
     [Parameter] public EventCallback<string> SelectedChanged { get; set; }
@@ -38,6 +39,11 @@
     private Func<MouseEventArgs, Task> Callback(string title)
     {
         return _ => SelectedChanged.InvokeAsync(title);
+    }
+
+    public void Dispose()
+    {
+        _handler?.Dispose();
     }
 
 }

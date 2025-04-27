@@ -1,0 +1,29 @@
+<ListContainer>
+    <Left>
+        <CommonListBase Items="@Left" Label="@LeftLabel">
+            <ItemTemplate>
+                <CommonItem Data="@context" Icon="i => i.Icon">
+                    <FirstLine Context="item">@item.First</FirstLine>
+                    <SecondLine Context="item">@item.Second</SecondLine>
+                </CommonItem>
+            </ItemTemplate>
+        </CommonListBase>
+    </Left>
+    <Right>
+        <CommonListBase Items="@Right" Label="@RightLabel">
+            <ItemTemplate>
+                <CommonItem Data="@context" Icon="i => i.Icon">
+                    <FirstLine Context="item">@item.First</FirstLine>
+                    <SecondLine Context="item">@item.Second</SecondLine>
+                </CommonItem>
+            </ItemTemplate>
+        </CommonListBase>
+    </Right>
+</ListContainer>
+
+@code {
+    [Parameter] public required IEnumerable<(string Icon, LocalizedString First, LocalizedString Second)> Left { get; set; }
+    [Parameter] public required IEnumerable<(string Icon, LocalizedString First, LocalizedString Second)> Right { get; set; }
+    [Parameter] public required LocalizedString LeftLabel { get; set; }
+    [Parameter] public required LocalizedString RightLabel { get; set; }
+}

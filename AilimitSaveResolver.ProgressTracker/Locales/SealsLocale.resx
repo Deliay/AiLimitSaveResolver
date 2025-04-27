@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-    <data name="Test" xml:space="preserve">
-        <value>测试</value>
+    <data name="MainSeal" xml:space="preserve">
+        <value>主刻印</value>
+    </data>
+    <data name="NormalSeal" xml:space="preserve">
+        <value>常刻印</value>
     </data>
 </root>

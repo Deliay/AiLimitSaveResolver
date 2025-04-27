@@ -1,0 +1,9 @@
+<div class="item-list-group">
+    @Left
+    @Right
+</div>
+
+@code {
+    [Parameter] public required RenderFragment Left { get; set; }
+    [Parameter] public required RenderFragment Right { get; set; }
+}

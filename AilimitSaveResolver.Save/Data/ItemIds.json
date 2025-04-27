@@ -504,14 +504,6 @@
     "Description": "在地城水道发现的土壤，受到了原浆的污染。\n将其交给植物学者德尔法，或许能取得研究成果。"
   },
   {
-    "HexId": "0x0A28",
-    "Id": "2600",
-    "Name": "",
-    "Memorize": "\n",
-    "Effect": "\n",
-    "Description": ""
-  },
-  {
     "HexId": "0x0A29",
     "Id": "2601",
     "Name": "蓄水池的钥匙",
@@ -544,14 +536,6 @@
     "Description": "渔夫帮派“鱼鹰”的首领藏身之处的钥匙。"
   },
   {
-    "HexId": "0x0A2D",
-    "Id": "2605",
-    "Name": "",
-    "Memorize": "\n",
-    "Effect": "\n",
-    "Description": ""
-  },
-  {
     "HexId": "0x0A2E",
     "Id": "2606",
     "Name": "控制台的钥匙",
@@ -574,14 +558,6 @@
     "Memorize": "[……监察模式……]\n[……中级管理权限……]\n[……解除……封锁……]\n",
     "Effect": "用于打开净地高塔外部各处的封锁\n",
     "Description": "教会的监察者持有的徽记之一。\n可以打开大教堂外部各处的封锁。"
-  },
-  {
-    "HexId": "0x0A31",
-    "Id": "2609",
-    "Name": "",
-    "Memorize": "\n",
-    "Effect": "\n",
-    "Description": ""
   },
   {
     "HexId": "0x0A32",

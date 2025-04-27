@@ -3,7 +3,7 @@
 @using AilimitSaveResolver.Save.Generated
 @inject IStringLocalizer<BladerText> Localizer
 <div class="slot @(IsSelected ? "selected" : "")">
-    <LimitListItem ImageSrc="@($"./images/branches/{BranchId}.jpg")" >
+    <SaveItemBase ImageSrc="@($"./images/branches/{BranchId}.jpg")" >
         <FirstLine>
             <div>
                 @Localizer["Level", $"{Slot.Level:000}"]
@@ -23,7 +23,7 @@
                 (int)Slot.LastPlayedAt.Hour,
                 (int)Slot.LastPlayedAt.Minute, 0).ToString(CultureInfo.CurrentCulture)]
         </SecondLine>
-    </LimitListItem>
+    </SaveItemBase>
 </div>
 @code {
     [Parameter] public required SaveSlot Slot { get; set; }

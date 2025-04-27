@@ -9,10 +9,13 @@
     {
         @switch (CurrentPage)
         {
-            case "Weapons": <Weapons></Weapons>
-                break;
-            default:
-                <Blader Data="Loader.CurrentData"/> break;
+            case "Weapons": <Weapons></Weapons> break;
+            case "Nuclei" :<Nuclei></Nuclei> break;
+            case "Seals": <Seals></Seals> break;
+            case "Spells": <Spells></Spells> break;
+            case "Items": <Items></Items> break;
+            case "Branches": <Branches></Branches> break;
+            default: <Blader Data="@Loader.CurrentData"/> break;
         }
     }
 </div>
@@ -31,5 +34,4 @@
     {
         _handler?.Dispose();
     }
-
 }

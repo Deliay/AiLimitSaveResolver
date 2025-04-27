@@ -1,0 +1,28 @@
+@inject IStringLocalizer<ItemsCommon> Localizer
+@inject IStringLocalizer<NucleiLocale> ItemLocalizer
+
+<CommonList
+    Left="_collectedList" LeftLabel="@(Localizer["Collected"])"
+    Right="_notCollected" RightLabel="@(Localizer["NotFound"])"/>
+
+@code {
+    private List<(string Icon, LocalizedString Name, LocalizedString)> _collectedList = [];
+    private List<(string Icon, LocalizedString Name, LocalizedString)> _notCollected = [];
+    [Parameter] public required SaveSlot Slot { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        var count = Slot.Inventory.Nuclei
+            .GroupBy(i => i.NucleusId)
+            .ToDictionary(i => i.Key, i => i.Count());
+        
+        var found = Enumerable.Repeat(1u, 1).Concat(Slot.Collected.Nuclei).ToList();
+        
+        (_collectedList, _notCollected) = CollectionHelper.Diff(Access.Data<NucleusIds>().Keys, 
+            found, GetIcon,
+            (id) => ItemLocalizer[$"{id}"], 
+            (id) => ItemLocalizer[$"{count.GetValueOrDefault(id, 0)}"]);
+    }
+
+    private static string GetIcon(uint id) => $"./images/nuclei/icon_acc_{id:0000}.webp";
+}

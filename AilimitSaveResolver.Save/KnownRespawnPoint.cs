@@ -100,4 +100,6 @@ public static class KnownRespawnPoint
         => Items.TryGetValue(id, out var item)
             ? item
             : Items.OrderBy(i => i.Key - id).First().Value;
+    
+    public static IReadOnlyDictionary<uint, RespawnBranch> All => Items;
 }

@@ -32,9 +32,33 @@
       <EmbeddedResource Update="Locales\BladerText.en.resx">
         <DependentUpon>BladerText.resx</DependentUpon>
       </EmbeddedResource>
-      <EmbeddedResource Update="Locales\Items.resx">
+      <EmbeddedResource Update="Locales\ItemsCommon.resx">
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Items.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Locales\WeaponLocale.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>WeaponLocale.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Locales\NucleiLocale.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>NucleiLocale.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Locales\SealsLocale.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SealsLocal.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Locales\SpellsLocale.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SpellsLocale.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Locales\ItemsLocale.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ItemsLocale.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Locales\BranchesLocale.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>BranchesLocale.Designer.cs</LastGenOutput>
       </EmbeddedResource>
     </ItemGroup>
 
@@ -49,10 +73,40 @@
         <AutoGen>True</AutoGen>
         <DependentUpon>BladerText.resx</DependentUpon>
       </Compile>
-      <Compile Update="Locales\Items.Designer.cs">
+      <Compile Update="Locales\ItemsCommon.Designer.cs">
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
-        <DependentUpon>Items.resx</DependentUpon>
+        <DependentUpon>ItemsCommon.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Locales\WeaponLocale.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>WeaponLocale.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Locales\NucleiLocale.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>NucleiLocale.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Locales\SealsLocale.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>SealsLocale.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Locales\SpellsLocale.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>SpellsLocale.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Locales\ItemsLocale.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ItemsLocale.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Locales\BranchesLocale.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>BranchesLocale.resx</DependentUpon>
       </Compile>
     </ItemGroup>
 
@@ -60,6 +114,12 @@
       <AdditionalFiles Include="Nav\LanguageSelector.razor" />
       <AdditionalFiles Include="Nav\NavBar.razor" />
       <AdditionalFiles Include="Nav\PageRouter.razor" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\images\nuclei\" />
+      <Folder Include="wwwroot\images\seals\" />
+      <Folder Include="wwwroot\images\spells\" />
     </ItemGroup>
 
 </Project>

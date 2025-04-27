@@ -26,6 +26,7 @@ public class WeaponClasses
     
     public string GetWeaponClassBySkillId(uint skillId) => SkillIdToClass[skillId].Class;
     public string GetWeaponNameBySkillId(uint skillId) => SkillIdToClass[skillId].Name;
+    public uint GetWeaponIdBySkillId(uint skillId) => SkillIdToClass[skillId].WeaponId;
     public string GetWeaponClassByWeaponName(string name) => WeaponNameToClass[name].Class;
 
     public string GetWeaponClassByWeaponId(uint weaponId) =>

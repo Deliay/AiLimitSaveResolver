@@ -1,0 +1,24 @@
+.branch {
+    display: flex;
+}
+
+.branch ::deep .item-list-group .item-list-container .item-list .item {
+    background-image: url("./images/slot_selection_bg.jpg");
+    border: 2px solid transparent;
+}
+
+.branch ::deep .item-list-group .item-list-container .item-list .item:hover {
+    background-image: url("./images/slot_selection_bg.jpg");
+    color: white;
+    border: 2px solid white;
+}
+
+.branch ::deep .item .name {
+    padding-left: 0;
+}
+
+.branch ::deep .item img {
+    height: 85%;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}

@@ -1,0 +1,22 @@
+@inject IStringLocalizer<ItemsCommon> Localizer
+@inject IStringLocalizer<SpellsLocale> ItemLocalizer
+
+<CommonList
+    Left="_collectedList" LeftLabel="@(Localizer["Collected"])"
+    Right="_notCollected" RightLabel="@(Localizer["NotFound"])"/>
+
+@code {
+    private List<(string Icon, LocalizedString Name, LocalizedString)> _collectedList = [];
+    private List<(string Icon, LocalizedString Name, LocalizedString)> _notCollected = [];
+    [Parameter] public required SaveSlot Slot { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        (_collectedList, _notCollected) = CollectionHelper.Diff(Access.Data<SpellIds>().Keys, 
+            Slot.Collected.Spells.ToList(), GetIcon,
+            (id) => ItemLocalizer[$"{id}"], 
+            (id) => Localizer[""]);
+    }
+
+    private static string GetIcon(uint id) => $"./images/spells/icon_magic_{id:0000}.webp";
+}

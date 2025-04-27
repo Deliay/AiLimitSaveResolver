@@ -13,7 +13,7 @@ const string saveFilePath = @"/mnt/games/Steam/steamapps/compatdata/2407270/pfx/
 const string secondSavePath = @"/mnt/games/Steam/steamapps/compatdata/2407270/pfx/drive_c/users/steamuser/AppData/LocalLow/SenseGames/AILIMIT/Archive_2周目结束/ai-limit_sav-data.sav";
 if (args.Length > 0 && args[0] == "reset")
 {
-    await ResetHint();
+    await UpdateSave();
     Console.WriteLine("已修改存档");
     return;
 }
@@ -130,38 +130,12 @@ static async ValueTask<SaveData> ReadSave()
     return Serializer.Deserialize<SaveData>((ReadOnlySpan<byte>)await File.ReadAllBytesAsync(saveFilePath));
 }
 
-static async ValueTask ResetHint()
+static async ValueTask UpdateSave()
 {
     var saveData = await ReadSave();
     var saveSlot = saveData.SaveSlots.First();
-    //
-    // foreach (var hint in saveSlot
-    //              .UnlockStatus
-    //              .HintUnlockedStatus
-    //              .Where(h => h.HintId is 360050 or 360000))
-    // {
-    //     hint.State = hint.HintId switch
-    //     {
-    //         350101 or 360101 or 350301 or 360301 or 350502
-    //             or 360502 or 360902 => 1,
-    //         _ => 0,
-    //     };
-    // }
-
-    // saveSlot.FragmentBranchAmount = 114514;
-    //
-    // foreach (var mapEnemyRespawn in saveSlot.UnlockStatus.MapEnemyRespawns
-    //              .Where(p => p.MapId == 10101 && p.EnemyRespawnId is 1 or 173))
-    // {
-    //     mapEnemyRespawn.MapItemunknownfield02 = 0;
-    // }
-    //
 
     var items = saveSlot.Inventory.NormalItems;
-    EditNormalItemCount(items, 101, 48);
-    EditNormalItemCount(items, 102, 48);
-    EditNormalItemCount(items, 103, 48);
-    // saveSlot.FragmentBranchAmount = 1145141919;
 
     DeleteIfExists(Path.Combine(saveDirectory, "ai-limit_sav-provisionalData.sav"));
     DeleteIfExists(Path.Combine(saveDirectory, "ai-limit_sav-backupData.sav"));

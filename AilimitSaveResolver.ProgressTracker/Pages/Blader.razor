@@ -10,12 +10,12 @@
 
         <ZSelect Items="Data.SaveSlots" Selected="_selectedSaveSlot" SelectedChanged="Callback">
             <OptionTemplate>
-                <SlotItem Slot="context.Item" IsSelected="context.IsSelected"></SlotItem>
+                <SaveItem Slot="context.Item" IsSelected="context.IsSelected"></SaveItem>
             </OptionTemplate>
             <SelectTemplate>
                 @if (context.Item is { } item)
                 {
-                    <SlotItem Slot="context.Item"></SlotItem>
+                    <SaveItem Slot="context.Item"></SaveItem>
                 }
                 else
                 {
@@ -51,7 +51,7 @@
                     <div>
                         <p>@Localizer["Nuclei"]</p>
                         <p>@Localizer["{0}/{1}",
-                               @GetDistinctCount(context.Slot.Collected.Nuclei), Access.Data<NucleusIds>().Count]</p>
+                               (GetDistinctCount(context.Slot.Collected.Nuclei) + 1), Access.Data<NucleusIds>().Count]</p>
                     </div>
                     <div>
                         <p>@Localizer["Seals"]</p>

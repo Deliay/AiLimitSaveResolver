@@ -1,0 +1,71 @@
+@inject IStringLocalizer<ItemsCommon> Localizer
+@inject IStringLocalizer<WeaponLocale> WeaponLocalizer
+
+<CommonList
+    Left="_existsWeapons" LeftLabel="@Localizer["Collected"]"
+    Right="_notFoundWeapons" RightLabel="@Localizer["NotFound"]" />
+
+@code {
+    [Parameter] public required SaveSlot Slot { get; set; }
+
+    private List<(string Icon, LocalizedString Name, LocalizedString Level)>
+        _existsWeapons = [];
+
+    private List<(string Icon, LocalizedString Name, LocalizedString Level)> _notFoundWeapons = [];
+    
+    protected override void OnParametersSet()
+    {
+        var existsSkillIds = Slot.Inventory.Weapons
+            .Select(w => GetWeaponSkillId(Slot, w)).ToHashSet();
+        
+        _existsWeapons = Slot.Inventory.Weapons
+            .Select(w =>
+            {
+                var weapon = Access.Data<WeaponIds>()[w.WeaponId];
+                var skillId = GetWeaponSkillId(Slot, w);
+
+                return (
+                    Icon: IconFromClass(skillId),
+                    Name: WeaponLocalizer[$"{weapon.Id}"],
+                    Level: Localizer[weapon.Level is {Length:> 0} l ? l : "未强化"]);
+            }).ToList();
+        
+        var notFoundSkillIds = Access.Data<SkillIds>().Keys.Except(existsSkillIds);
+
+        _notFoundWeapons = notFoundSkillIds
+            .Select(id => (
+                Icon: IconFromClass(id),
+                Name: WeaponLocalizer[$"{GetWeaponId(id)}"],
+                Level: Localizer["NotFound"]))
+            .ToList();
+
+    }
+
+    private static string IconFromClass(string weaponClass)
+    {
+        return $"./images/weapons/Icon_Weapon_{weaponClass}.webp";    
+    }
+    private static string IconFromClass(uint skillId)
+    {
+        return IconFromClass(GetWeaponClass(skillId));    
+    }
+    
+    private static uint GetWeaponSkillId(SaveSlot slot, Weapon weapon)
+    {
+        var skill = slot.Inventory.Skills
+            .First(s => s.Index == weapon.SkillIdIndex);
+
+        return skill.SkillId;
+    }
+
+    private static string GetWeaponClass(uint skillId)
+    {
+        return Access.Data<WeaponClasses>()
+            .GetWeaponClassBySkillId(skillId);
+    }
+    private static uint GetWeaponId(uint skillId)
+    {
+        return Access.Data<WeaponClasses>()
+            .GetWeaponIdBySkillId(skillId);
+    }
+}

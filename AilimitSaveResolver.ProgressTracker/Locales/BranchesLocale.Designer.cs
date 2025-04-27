@@ -14,21 +14,21 @@ namespace AilimitSaveResolver.ProgressTracker.Locales {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Items {
+    internal class BranchesLocale {
         
         private static System.Resources.ResourceManager resourceMan;
         
         private static System.Globalization.CultureInfo resourceCulture;
         
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Items() {
+        internal BranchesLocale() {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         internal static System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.Equals(null, resourceMan)) {
-                    System.Resources.ResourceManager temp = new System.Resources.ResourceManager("AilimitSaveResolver.ProgressTracker.Locales.Items", typeof(Items).Assembly);
+                    System.Resources.ResourceManager temp = new System.Resources.ResourceManager("AilimitSaveResolver.ProgressTracker.Locales.BranchesLocale", typeof(BranchesLocale).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -45,9 +45,9 @@ namespace AilimitSaveResolver.ProgressTracker.Locales {
             }
         }
         
-        internal static string Test {
+        internal static string AreaName {
             get {
-                return ResourceManager.GetString("Test", resourceCulture);
+                return ResourceManager.GetString("AreaName", resourceCulture);
             }
         }
     }

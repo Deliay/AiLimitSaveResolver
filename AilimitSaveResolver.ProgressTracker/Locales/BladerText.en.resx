@@ -89,10 +89,4 @@
     <data name="AchievementCollect" xml:space="preserve">
         <value>Achievements Collect</value>
     </data>
-    <data name="Collected" xml:space="preserve">
-        <value>Collected</value>
-    </data>
-    <data name="NotFound" xml:space="preserve">
-        <value>Not Found</value>
-    </data>
 </root>

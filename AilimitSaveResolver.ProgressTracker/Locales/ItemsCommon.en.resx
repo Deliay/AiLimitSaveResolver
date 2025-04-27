@@ -1,0 +1,56 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="未强化" xml:space="preserve">
+        <value>Not Enhanced</value>
+    </data>
+    <data name="等级1" xml:space="preserve">
+        <value>Enhance Level 1</value>
+    </data>
+    <data name="等级2" xml:space="preserve">
+        <value>Enhance Level 2</value>
+    </data>
+    <data name="等级3" xml:space="preserve">
+        <value>Enhance Level 3</value>
+    </data>
+    <data name="等级4" xml:space="preserve">
+        <value>Enhance Level 4</value>
+    </data>
+    <data name="等级5" xml:space="preserve">
+        <value>Enhance Level 5</value>
+    </data>
+    <data name="等级6" xml:space="preserve">
+        <value>Enhance Level 6</value>
+    </data>
+    <data name="等级7" xml:space="preserve">
+        <value>Enhance Level 7</value>
+    </data>
+    <data name="等级8" xml:space="preserve">
+        <value>Enhance Level 8</value>
+    </data>
+    <data name="等级9" xml:space="preserve">
+        <value>Enhance Level 9</value>
+    </data>
+    <data name="等级Max" xml:space="preserve">
+        <value>Enhance Level Max</value>
+    </data>
+    <data name="NotFound" xml:space="preserve">
+        <value>Not Found</value>
+    </data>
+    <data name="Collected" xml:space="preserve">
+        <value>Collected</value>
+    </data>
+    <data name="Linked" xml:space="preserve">
+        <value>Linked</value>
+    </data>
+</root>

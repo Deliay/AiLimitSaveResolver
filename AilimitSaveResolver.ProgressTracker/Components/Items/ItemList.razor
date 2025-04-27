@@ -1,0 +1,27 @@
+@inject IStringLocalizer<ItemsCommon> Localizer
+@inject IStringLocalizer<ItemsLocale> ItemLocalizer
+
+<CommonList
+    Left="_collectedList" LeftLabel="@(Localizer["Collected"])"
+    Right="_notCollected" RightLabel="@(Localizer["NotFound"])"/>
+
+@code {
+    private List<(string Icon, LocalizedString Name, LocalizedString)> _collectedList = [];
+    private List<(string Icon, LocalizedString Name, LocalizedString)> _notCollected = [];
+    [Parameter] public required SaveSlot Slot { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        var count = Slot.Inventory.NormalItems.ToDictionary(i => i.ItemId, i => i.Amount);
+
+        var found = Slot.Collected.ItemIds.Where(id => id < 10000).ToList();
+        var totalItems = Access.Data<ItemIds>().Keys.ToHashSet();
+        totalItems.Remove(2024u);
+        
+        (_collectedList, _notCollected) = CollectionHelper.Diff(totalItems, found, GetIcon,
+            (id) => ItemLocalizer[$"{id}"], 
+            (id) => Localizer[$"{count.GetValueOrDefault(id, 0u)}"]);
+    }
+
+    private static string GetIcon(uint id) => $"./images/items/icon_item_{id:0000}.webp";
+}

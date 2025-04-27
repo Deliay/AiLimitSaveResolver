@@ -1,0 +1,30 @@
+@using AilimitSaveResolver.Save
+@inject IStringLocalizer<ItemsCommon> Localizer
+@inject IStringLocalizer<BranchesLocale> ItemLocalizer
+
+<div class="branch">
+    <CommonList
+        Left="_collectedList" LeftLabel="@(Localizer["Linked"])"
+        Right="_notCollected" RightLabel="@(Localizer["NotFound"])"/>
+</div>
+
+@code {
+    private List<(string Icon, LocalizedString Name, LocalizedString)> _collectedList = [];
+    private List<(string Icon, LocalizedString Name, LocalizedString)> _notCollected = [];
+    [Parameter] public required SaveSlot Slot { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        var found = Slot.UnlockedRespoawnPointIndexes.ToList();
+        var totalItems = KnownRespawnPoint.All.Keys;
+        
+        (_collectedList, _notCollected) = CollectionHelper.Diff(totalItems, found, GetIcon,
+            (id) => ItemLocalizer[$"Branch-{KnownRespawnPoint.Get(id).Branch}"], 
+            (id) => ItemLocalizer["AreaName",
+                ItemLocalizer[$"Region-{KnownRespawnPoint.Get(id).Region}"],
+                ItemLocalizer[$"Area-{KnownRespawnPoint.Get(id).Area}"]]);
+        
+    }
+
+    private static string GetIcon(uint id) => $"./images/branches/{id:0000}.jpg";
+}
