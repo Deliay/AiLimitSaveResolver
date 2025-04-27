@@ -1,0 +1,29 @@
+name: build and publish AiLimitSaveResolver.Save 
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+          
+      - name: Restore dependencies
+        run: dotnet restore
+        
+      - name: Build
+        run: dotnet pack
+        
+      - name: publish-to-nuget
+        run: dotnet nuget push **/*.nupkg --api-key=${{secrets.NUGET_KEY}} --skip-duplicate --source=https://api.nuget.org/v3/index.json
+        
+        
