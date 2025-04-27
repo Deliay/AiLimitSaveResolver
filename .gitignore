@@ -6,4 +6,4 @@ riderModule.iml
 .idea
 .vs
 .vscode
-.DotSettings.user
+*.DotSettings.user
