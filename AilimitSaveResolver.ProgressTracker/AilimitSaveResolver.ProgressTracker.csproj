@@ -32,6 +32,10 @@
       <EmbeddedResource Update="Locales\BladerText.en.resx">
         <DependentUpon>BladerText.resx</DependentUpon>
       </EmbeddedResource>
+      <EmbeddedResource Update="Locales\Items.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Items.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
     </ItemGroup>
 
     <ItemGroup>
@@ -44,6 +48,11 @@
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
         <DependentUpon>BladerText.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Locales\Items.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Items.resx</DependentUpon>
       </Compile>
     </ItemGroup>
 

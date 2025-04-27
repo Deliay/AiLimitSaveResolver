@@ -25,6 +25,7 @@ public class WeaponClasses
     private readonly Dictionary<uint, WeaponClass> SkillIdToClass = [];
     
     public string GetWeaponClassBySkillId(uint skillId) => SkillIdToClass[skillId].Class;
+    public string GetWeaponNameBySkillId(uint skillId) => SkillIdToClass[skillId].Name;
     public string GetWeaponClassByWeaponName(string name) => WeaponNameToClass[name].Class;
 
     public string GetWeaponClassByWeaponId(uint weaponId) =>

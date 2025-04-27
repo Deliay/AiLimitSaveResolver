@@ -38,6 +38,7 @@
         
         Selected = Items[0];
         _currentSelectContext = new SelectContext(Selected, false);
+        SelectedChanged?.Invoke(Selected);
     }
 
     private void InvertState()

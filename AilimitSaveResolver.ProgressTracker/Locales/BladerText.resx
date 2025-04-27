@@ -96,4 +96,10 @@
     <data name="AchievementCollect" xml:space="preserve">
         <value>成就相关收集</value>
     </data>
+    <data name="Collected" xml:space="preserve">
+        <value>已收集</value>
+    </data>
+    <data name="NotFound" xml:space="preserve">
+        <value>未发现</value>
+    </data>
 </root>

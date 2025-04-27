@@ -97,7 +97,7 @@ public partial class Weapon
     /// </summary>
     [Proto(3)]
     [ProtoMember(3, Name = @"Inventory_unknown_field_03_03")]
-    public uint Inventoryunknownfield0303 { get; set; }
+    public uint SkillIdIndex { get; set; }
 }
 
 [ProtoPackable]

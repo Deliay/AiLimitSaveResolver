@@ -1,19 +1,19 @@
 @inject SaveLoader Loader
 @implements IDisposable
 <div class="content">
-    @switch (CurrentPage)
+    @if (!Loader.Loaded)
     {
-        default:
-            if (Loader.Loaded)
-            {
-                <Blader Data="Loader.CurrentData" />
-            }
-            else
-            {
-                <UploadBlader />
-            }
-
-            break;
+        <UploadBlader/>
+    }
+    else
+    {
+        @switch (CurrentPage)
+        {
+            case "Weapons": <Weapons></Weapons>
+                break;
+            default:
+                <Blader Data="Loader.CurrentData"/> break;
+        }
     }
 </div>
 

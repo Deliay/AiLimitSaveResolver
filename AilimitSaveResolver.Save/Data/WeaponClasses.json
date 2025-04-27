@@ -73,7 +73,7 @@
   },
   {
     "Name": "收割者",
-    "Class": "DoubleSwords_Reaper.",
+    "Class": "DoubleSwords_Reaper",
     "SkillId": 24,
     "WeaponId": 78
   },
@@ -97,7 +97,7 @@
   },
   {
     "Name": "废铁长枪",
-    "Class": "",
+    "Class": "Halberd_Lore",
     "SkillId": 30,
     "WeaponId": 132
   },
@@ -156,7 +156,7 @@
     "WeaponId": 264
   },
   {
-    "Name": "废铁长枪",
+    "Name": "废铁长枪(废案)",
     "Class": "Halberd_Lore",
     "SkillId": 41,
     "WeaponId": 132
