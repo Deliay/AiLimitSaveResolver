@@ -5,6 +5,8 @@ on:
     branches:
       - main
 
+    paths: [ "AilimitSaveResolver.Save/**", '**/build-and-publish-library.yml' ]
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,11 +21,14 @@ jobs:
           
       - name: Restore dependencies
         run: dotnet restore
+        working-directory: ./AilimitSaveResolver.Save
         
       - name: Build
         run: dotnet pack
+        working-directory: ./AilimitSaveResolver.Save
         
       - name: publish-to-nuget
         run: dotnet nuget push **/*.nupkg --api-key=${{secrets.NUGET_KEY}} --skip-duplicate --source=https://api.nuget.org/v3/index.json
+        working-directory: ./AilimitSaveResolver.Save
         
         
