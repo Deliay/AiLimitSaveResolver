@@ -56,4 +56,10 @@
       </Compile>
     </ItemGroup>
 
+    <ItemGroup>
+      <AdditionalFiles Include="Nav\LanguageSelector.razor" />
+      <AdditionalFiles Include="Nav\NavBar.razor" />
+      <AdditionalFiles Include="Nav\PageRouter.razor" />
+    </ItemGroup>
+
 </Project>
