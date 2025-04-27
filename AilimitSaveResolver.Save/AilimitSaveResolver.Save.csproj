@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Lagrange.Proto" Version="1.0.2" />
+      <PackageReference Include="Lagrange.Proto" Version="1.0.4" />
       <PackageReference Include="Lagrange.Proto.Generator" Version="1.0.0">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
