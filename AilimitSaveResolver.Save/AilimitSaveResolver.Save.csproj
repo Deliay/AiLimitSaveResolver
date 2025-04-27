@@ -1,18 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-    </PropertyGroup>
-
     <ItemGroup>
-      <PackageReference Include="Lagrange.Proto" Version="1.0.4" />
-      <PackageReference Include="Lagrange.Proto.Generator" Version="1.0.0">
+      <None Include="../README.md" Pack="true" PackagePath="/"/>
+      <None Include="../LICENSE" Pack="true" PackagePath="/"/>
+    </ItemGroup>
+  
+    <ItemGroup>
+      <PackageReference Include="Lagrange.Proto" />
+      <PackageReference Include="Lagrange.Proto.Generator">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
-      <PackageReference Include="protobuf-net" Version="3.2.52" />
+      <PackageReference Include="protobuf-net" />
     </ItemGroup>
 
     <ItemGroup>

@@ -1,16 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
-
-    <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
-        <Nullable>enable</Nullable>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
-    </PropertyGroup>
+    <ItemGroup>
+      <None Include="../README.md" Pack="true" PackagePath="/"/>
+      <None Include="../LICENSE" Pack="true" PackagePath="/"/>
+    </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.4" />
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.4" PrivateAssets="all" />
-        <PackageReference Include="Microsoft.Extensions.Localization" Version="9.0.4" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.Extensions.Localization" />
     </ItemGroup>
 
     <ItemGroup>
@@ -108,18 +105,6 @@
         <AutoGen>True</AutoGen>
         <DependentUpon>BranchesLocale.resx</DependentUpon>
       </Compile>
-    </ItemGroup>
-
-    <ItemGroup>
-      <AdditionalFiles Include="Nav\LanguageSelector.razor" />
-      <AdditionalFiles Include="Nav\NavBar.razor" />
-      <AdditionalFiles Include="Nav\PageRouter.razor" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="wwwroot\images\nuclei\" />
-      <Folder Include="wwwroot\images\seals\" />
-      <Folder Include="wwwroot\images\spells\" />
     </ItemGroup>
 
 </Project>

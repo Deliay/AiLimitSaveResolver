@@ -1,0 +1,27 @@
+<Project>
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+        <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+        <NoWarn>$(NoWarn);NU1507</NoWarn>
+        <Version>1.0.0</Version>
+        <Authors>ZeroAsh</Authors>
+        <PackageTags>ailimit;</PackageTags>
+        <RepositoryUrl>https://github.com/Deliay/AiLimitSaveResolver</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <Description>A library and tool that parses the game AlLimit's saves to find items not found in the saves.</Description>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageVersion Include="protobuf-net" Version="3.2.52" />
+        <PackageVersion Include="Lagrange.Proto" Version="1.0.4" />
+        <PackageVersion Include="Lagrange.Proto.Generator" Version="1.0.0"/>
+        <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.4" />
+        <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.4" />
+        <PackageVersion Include="Microsoft.Extensions.Localization" Version="9.0.4" />
+    </ItemGroup>
+</Project>
