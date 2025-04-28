@@ -1,4 +1,8 @@
-﻿<div class="page">
+﻿@inject IStringLocalizer<LayoutText> Localizer
+
+<PageTitle>@Localizer["PageTitle"]</PageTitle>
+
+<div class="page">
     <main>
         <CascadingSaveSlot>
             <NavBar @bind-Selected="@SelectedPage"></NavBar>

@@ -51,4 +51,7 @@
     <data name="Upload" xml:space="preserve">
         <value>上传存档</value>
     </data>
+    <data name="PageTitle" xml:space="preserve">
+        <value>无限机兵 - 查缺补漏</value>
+    </data>
 </root>
