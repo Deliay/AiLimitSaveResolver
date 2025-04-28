@@ -39,6 +39,9 @@
         <value>The save file '{0}' processing failed, please upload the correct 'ai-limit_sav-data.sav'!</value>
     </data>
     <data name="TextUploadTheSaveFile" xml:space="preserve">
-        <value>Click to upload your save, or drag your save file into this box.</value>
+        <value>Click to upload your save, or drag, paste your save file into this box.</value>
+    </data>
+    <data name="Upload" xml:space="preserve">
+        <value>Upload</value>
     </data>
 </root>

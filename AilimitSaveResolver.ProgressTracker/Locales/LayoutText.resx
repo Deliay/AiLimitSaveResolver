@@ -46,6 +46,9 @@
         <value>存档文件'{0}'处理失败，请上传正确的'ai-limit_sav-data.sav'文件！</value>
     </data>
     <data name="TextUploadTheSaveFile" xml:space="preserve">
-        <value>点击这里上传您的存档，或者将您的存档拖拽到这里</value>
+        <value>点击选择存档，或将您的存档拖拽/粘贴到这里</value>
+    </data>
+    <data name="Upload" xml:space="preserve">
+        <value>上传存档</value>
     </data>
 </root>
