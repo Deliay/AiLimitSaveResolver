@@ -194,6 +194,7 @@ code {
 .item-list .item img {
     height: 100%;
     margin-left: 0.3rem;
+    width: 6rem;
 }
 
 .item-list .item .description {
