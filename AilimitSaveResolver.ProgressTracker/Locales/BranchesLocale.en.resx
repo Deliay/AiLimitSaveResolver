@@ -14,4 +14,247 @@
     <data name="AreaName" xml:space="preserve">
         <value>{0}-{1}</value>
     </data>
+    <data name="Region-地城水道" xml:space="preserve">
+        <value>Sewer Town</value>
+    </data>
+    <data name="Area-西南段" xml:space="preserve">
+        <value>Southwest</value>
+    </data>
+    <data name="Area-北段" xml:space="preserve">
+        <value>North</value>
+    </data>
+    <data name="Area-中段" xml:space="preserve">
+        <value>Center</value>
+    </data>
+    <data name="Area-圣树庭院" xml:space="preserve">
+        <value>Courtyard of The Tree</value>
+    </data>
+    <data name="Region-壁外废墟" xml:space="preserve">
+        <value>Outer-Wall Ruins</value>
+    </data>
+    <data name="Region-沉默之都-上层" xml:space="preserve">
+        <value>Sunken City Overground</value>
+    </data>
+    <data name="Region-沉默之都-下层" xml:space="preserve">
+        <value>Sunken City Underground</value>
+    </data>
+    <data name="Region-圣父大教堂" xml:space="preserve">
+        <value>Hagios Patir</value>
+    </data>
+    <data name="Region-环界" xml:space="preserve">
+        <value>The Sphere</value>
+    </data>
+    <data name="Region-薄暮山" xml:space="preserve">
+        <value>Twilight Hill</value>
+    </data>
+    <data name="Area-上层" xml:space="preserve">
+        <value>Lower Level</value>
+    </data>
+    <data name="Area-下层" xml:space="preserve">
+        <value>Upper Level</value>
+    </data>
+    <data name="Area-净地" xml:space="preserve">
+        <value>Elysium</value>
+    </data>
+    <data name="Branch-集水区" xml:space="preserve">
+        <value>Sewer Confluence</value>
+    </data>
+    <data name="Branch-维修通道" xml:space="preserve">
+        <value>Maintenance Access</value>
+    </data>
+    <data name="Branch-大蓄水池" xml:space="preserve">
+        <value>Large Reservoir</value>
+    </data>
+    <data name="Branch-上行电梯前" xml:space="preserve">
+        <value>Before Upward Elevator</value>
+    </data>
+    <data name="Branch-水道路旁" xml:space="preserve">
+        <value>Sewer Bypass</value>
+    </data>
+    <data name="Branch-沉淀池" xml:space="preserve">
+        <value>Sedimentation Tank</value>
+    </data>
+    <data name="Branch-狩猎场" xml:space="preserve">
+        <value>Hunting Ground</value>
+    </data>
+    <data name="Branch-地层裂隙" xml:space="preserve">
+        <value>Underground Rift</value>
+    </data>
+    <data name="Branch-中央车站" xml:space="preserve">
+        <value>Central Station</value>
+    </data>
+    <data name="Branch-隐秘站台" xml:space="preserve">
+        <value>Hidden Platform</value>
+    </data>
+    <data name="Branch-地下深井" xml:space="preserve">
+        <value>Underground Shaft</value>
+    </data>
+    <data name="Branch-圣树之门" xml:space="preserve">
+        <value>Gate of the Tree</value>
+    </data>
+    <data name="Branch-中央花园" xml:space="preserve">
+        <value>Central Garden</value>
+    </data>
+    <data name="Branch-朝圣小径" xml:space="preserve">
+        <value>Path of Pilgrimage</value>
+    </data>
+    <data name="Branch-临时营地" xml:space="preserve">
+        <value>Temporary Campsite</value>
+    </data>
+    <data name="Branch-废屋群" xml:space="preserve">
+        <value>Abandoned Houses</value>
+    </data>
+    <data name="Branch-墓园" xml:space="preserve">
+        <value>Cemetery</value>
+    </data>
+    <data name="Branch-入城通道" xml:space="preserve">
+        <value>Entryway</value>
+    </data>
+    <data name="Branch-工厂旁路" xml:space="preserve">
+        <value>Factory Bypass</value>
+    </data>
+    <data name="Branch-装配车间" xml:space="preserve">
+        <value>Assembly Hall</value>
+    </data>
+    <data name="Area-古代机械工厂" xml:space="preserve">
+        <value>Ancient Machine Works</value>
+    </data>
+    <data name="Area-贫民窟" xml:space="preserve">
+        <value>Slums</value>
+    </data>
+    <data name="Branch-雪莉的房间" xml:space="preserve">
+        <value>Shirley’s Room</value>
+    </data>
+    <data name="Branch-研究所" xml:space="preserve">
+        <value>Research Center</value>
+    </data>
+    <data name="Branch-地下试验场" xml:space="preserve">
+        <value>Underground Lab</value>
+    </data>
+    <data name="Area-楼顶街" xml:space="preserve">
+        <value>Rooftop Street</value>
+    </data>
+    <data name="Branch-停机坪" xml:space="preserve">
+        <value>Top Apron</value>
+    </data>
+    <data name="Branch-渔夫营地" xml:space="preserve">
+        <value>Fisherman’s Camp</value>
+    </data>
+    <data name="Branch-休息室" xml:space="preserve">
+        <value>Lounge</value>
+    </data>
+    <data name="Branch-交界桥" xml:space="preserve">
+        <value>Boundary Bridge</value>
+    </data>
+    <data name="Branch-旅店走廊" xml:space="preserve">
+        <value>Hotel Corridor</value>
+    </data>
+    <data name="Branch-观景阳台" xml:space="preserve">
+        <value>Viewing Balcony</value>
+    </data>
+    <data name="Area-覆水街道" xml:space="preserve">
+        <value>Flooded Street</value>
+    </data>
+    <data name="Branch-幸存者据点" xml:space="preserve">
+        <value>Survivors’ Stronghold</value>
+    </data>
+    <data name="Branch-商业街" xml:space="preserve">
+        <value>High Street</value>
+    </data>
+    <data name="Branch-东侧广场" xml:space="preserve">
+        <value>Eastern Square</value>
+    </data>
+    <data name="Branch-以金广场" xml:space="preserve">
+        <value>Aetherium Mansion</value>
+    </data>
+    <data name="Branch-下行电梯" xml:space="preserve">
+        <value>Downward Elevator</value>
+    </data>
+    <data name="Area-地下教区" xml:space="preserve">
+        <value>Underground Parish</value>
+    </data>
+    <data name="Branch-大厦底层" xml:space="preserve">
+        <value> Mansion Ground Floor</value>
+    </data>
+    <data name="Branch-教区大道" xml:space="preserve">
+        <value>Parish Avenue</value>
+    </data>
+    <data name="Branch-壁画前" xml:space="preserve">
+        <value>Mural Terrace</value>
+    </data>
+    <data name="Branch-教区车站" xml:space="preserve">
+        <value>Parish Station</value>
+    </data>
+    <data name="Branch-活物池塘" xml:space="preserve">
+        <value>Living Pond</value>
+    </data>
+    <data name="Branch-审判厅" xml:space="preserve">
+        <value>Trial Hall</value>
+    </data>
+    <data name="Branch-主教通道" xml:space="preserve">
+        <value>Bishop’s Passage</value>
+    </data>
+    <data name="Branch-净灵阶梯" xml:space="preserve">
+        <value>Cleansing Stairs</value>
+    </data>
+    <data name="Branch-断层回廊" xml:space="preserve">
+        <value>Faultage Corridor</value>
+    </data>
+    <data name="Branch-献晶所" xml:space="preserve">
+        <value>Mud-Drawing Room</value>
+    </data>
+    <data name="Branch-自塑殿堂" xml:space="preserve">
+        <value>Evolving Palace</value>
+    </data>
+    <data name="Branch-未然领域" xml:space="preserve">
+        <value>Uncharted Realm</value>
+    </data>
+    <data name="Branch-终礼步道" xml:space="preserve">
+        <value>Path of Epitome</value>
+    </data>
+    <data name="Branch-至上天顶" xml:space="preserve">
+        <value>Welkin</value>
+    </data>
+    <data name="Branch-圣坛" xml:space="preserve">
+        <value>The Altar</value>
+    </data>
+    <data name="Area-深渊灵龛" xml:space="preserve">
+        <value>Spirit Depths</value>
+    </data>
+    <data name="Branch-沉眠阵列" xml:space="preserve">
+        <value>Dormant Array</value>
+    </data>
+    <data name="Branch-监视塔" xml:space="preserve">
+        <value>Watch Tower</value>
+    </data>
+    <data name="Branch-底层灵龛" xml:space="preserve">
+        <value>Depths’ Bottom</value>
+    </data>
+    <data name="Branch-坍塌巨洞" xml:space="preserve">
+        <value>Collapsed Cavern</value>
+    </data>
+    <data name="Area-枯萎林区" xml:space="preserve">
+        <value>Withered Forest</value>
+    </data>
+    <data name="Branch-林区入口" xml:space="preserve">
+        <value>Forest Entrance</value>
+    </data>
+    <data name="Branch-死树林" xml:space="preserve">
+        <value>Deadwoods</value>
+    </data>
+    <data name="Branch-薄暮山脚" xml:space="preserve">
+        <value>Twilight Foothills</value>
+    </data>
+    <data name="Branch-猎人栈道" xml:space="preserve">
+        <value>Hunters’ Trestle</value>
+    </data>
+    <data name="Branch-植物园" xml:space="preserve">
+        <value>Arboretum</value>
+    </data>
+    <data name="Branch-天树花园" xml:space="preserve">
+        <value>Celestial Tree Garden</value>
+    </data>
+    <data name="Branch-环界之门" xml:space="preserve">
+        <value>Gate of the Sphere</value>
+    </data>
 </root>

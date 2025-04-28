@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <root>
-    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <xsd:element name="root" msdata:IsDataSet="true">
-            
+
         </xsd:element>
     </xsd:schema>
     <resheader name="resmimetype">
@@ -13,12 +14,98 @@
         <value>1.3</value>
     </resheader>
     <resheader name="reader">
-        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
     </resheader>
     <resheader name="writer">
-        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
     </resheader>
     <data name="AreaName" xml:space="preserve">
         <value>{0}-{1}</value>
     </data>
+    <data name="Branch-集水区" xml:space="preserve"><value>集水区</value></data>
+    <data name="Branch-维修通道" xml:space="preserve"><value>维修通道</value></data>
+    <data name="Branch-大蓄水池" xml:space="preserve"><value>大蓄水池</value></data>
+    <data name="Branch-上行电梯前" xml:space="preserve"><value>上行电梯前</value></data>
+    <data name="Branch-水道路旁" xml:space="preserve"><value>水道路旁</value></data>
+    <data name="Branch-沉淀池" xml:space="preserve"><value>沉淀池</value></data>
+    <data name="Branch-狩猎场" xml:space="preserve"><value>狩猎场</value></data>
+    <data name="Branch-地层裂隙" xml:space="preserve"><value>地层裂隙</value></data>
+    <data name="Branch-中央车站" xml:space="preserve"><value>中央车站</value></data>
+    <data name="Branch-隐秘站台" xml:space="preserve"><value>隐秘站台</value></data>
+    <data name="Branch-地下深井" xml:space="preserve"><value>地下深井</value></data>
+    <data name="Branch-圣树之门" xml:space="preserve"><value>圣树之门</value></data>
+    <data name="Branch-中央花园" xml:space="preserve"><value>中央花园</value></data>
+    <data name="Branch-朝圣小径" xml:space="preserve"><value>朝圣小径</value></data>
+    <data name="Branch-临时营地" xml:space="preserve"><value>临时营地</value></data>
+    <data name="Branch-废屋群" xml:space="preserve"><value>废屋群</value></data>
+    <data name="Branch-墓园" xml:space="preserve"><value>墓园</value></data>
+    <data name="Branch-入城通道" xml:space="preserve"><value>入城通道</value></data>
+    <data name="Branch-工厂旁路" xml:space="preserve"><value>工厂旁路</value></data>
+    <data name="Branch-装配车间" xml:space="preserve"><value>装配车间</value></data>
+    <data name="Branch-雪莉的房间" xml:space="preserve"><value>雪莉的房间</value></data>
+    <data name="Branch-研究所" xml:space="preserve"><value>研究所</value></data>
+    <data name="Branch-地下试验场" xml:space="preserve"><value>地下试验场</value></data>
+    <data name="Branch-停机坪" xml:space="preserve"><value>停机坪</value></data>
+    <data name="Branch-渔夫营地" xml:space="preserve"><value>渔夫营地</value></data>
+    <data name="Branch-休息室" xml:space="preserve"><value>休息室</value></data>
+    <data name="Branch-交界桥" xml:space="preserve"><value>交界桥</value></data>
+    <data name="Branch-旅店走廊" xml:space="preserve"><value>旅店走廊</value></data>
+    <data name="Branch-观景阳台" xml:space="preserve"><value>观景阳台</value></data>
+    <data name="Branch-幸存者据点" xml:space="preserve"><value>幸存者据点</value></data>
+    <data name="Branch-商业街" xml:space="preserve"><value>商业街</value></data>
+    <data name="Branch-东侧广场" xml:space="preserve"><value>东侧广场</value></data>
+    <data name="Branch-以金广场" xml:space="preserve"><value>以金广场</value></data>
+    <data name="Branch-下行电梯" xml:space="preserve"><value>下行电梯</value></data>
+    <data name="Branch-大厦底层" xml:space="preserve"><value>大厦底层</value></data>
+    <data name="Branch-教区大道" xml:space="preserve"><value>教区大道</value></data>
+    <data name="Branch-壁画前" xml:space="preserve"><value>壁画前</value></data>
+    <data name="Branch-教区车站" xml:space="preserve"><value>教区车站</value></data>
+    <data name="Branch-活物池塘" xml:space="preserve"><value>活物池塘</value></data>
+    <data name="Branch-审判厅" xml:space="preserve"><value>审判厅</value></data>
+    <data name="Branch-主教通道" xml:space="preserve"><value>主教通道</value></data>
+    <data name="Branch-净灵阶梯" xml:space="preserve"><value>净灵阶梯</value></data>
+    <data name="Branch-断层回廊" xml:space="preserve"><value>断层回廊</value></data>
+    <data name="Branch-献晶所" xml:space="preserve"><value>献晶所</value></data>
+    <data name="Branch-自塑殿堂" xml:space="preserve"><value>自塑殿堂</value></data>
+    <data name="Branch-未然领域" xml:space="preserve"><value>未然领域</value></data>
+    <data name="Branch-终礼步道" xml:space="preserve"><value>终礼步道</value></data>
+    <data name="Branch-至上天顶" xml:space="preserve"><value>至上天顶</value></data>
+    <data name="Branch-圣坛" xml:space="preserve"><value>圣坛</value></data>
+    <data name="Branch-沉眠阵列" xml:space="preserve"><value>沉眠阵列</value></data>
+    <data name="Branch-监视塔" xml:space="preserve"><value>监视塔</value></data>
+    <data name="Branch-底层灵龛" xml:space="preserve"><value>底层灵龛</value></data>
+    <data name="Branch-坍塌巨洞" xml:space="preserve"><value>坍塌巨洞</value></data>
+    <data name="Branch-林区入口" xml:space="preserve"><value>林区入口</value></data>
+    <data name="Branch-死树林" xml:space="preserve"><value>死树林</value></data>
+    <data name="Branch-薄暮山脚" xml:space="preserve"><value>薄暮山脚</value></data>
+    <data name="Branch-猎人栈道" xml:space="preserve"><value>猎人栈道</value></data>
+    <data name="Branch-植物园" xml:space="preserve"><value>植物园</value></data>
+    <data name="Branch-天树花园" xml:space="preserve"><value>天树花园</value></data>
+    <data name="Branch-环界之门" xml:space="preserve"><value>环界之门</value></data>
+    <data name="Region-地城水道" xml:space="preserve"><value>地城水道</value></data>
+    <data name="Region-壁外废墟" xml:space="preserve"><value>壁外废墟</value></data>
+    <data name="Region-沉默之都-上层" xml:space="preserve"><value>沉默之都-上层</value></data>
+    <data name="Region-沉默之都-下层" xml:space="preserve"><value>沉默之都-下层</value></data>
+    <data name="Region-圣父大教堂" xml:space="preserve"><value>圣父大教堂</value></data>
+    <data name="Region-薄暮山" xml:space="preserve"><value>薄暮山</value></data>
+    <data name="Region-环界" xml:space="preserve"><value>环界</value></data>
+    <data name="Area-西南段" xml:space="preserve"><value>西南段</value></data>
+    <data name="Area-北段" xml:space="preserve"><value>北段</value></data>
+    <data name="Area-中段" xml:space="preserve"><value>中段</value></data>
+    <data name="Area-圣树庭院" xml:space="preserve"><value>圣树庭院</value></data>
+    <data name="Area-贫民窟" xml:space="preserve"><value>贫民窟</value></data>
+    <data name="Area-古代机械工厂" xml:space="preserve"><value>古代机械工厂</value></data>
+    <data name="Area-楼顶街" xml:space="preserve"><value>楼顶街</value></data>
+    <data name="Area-覆水街道" xml:space="preserve"><value>覆水街道</value></data>
+    <data name="Area-地下教区" xml:space="preserve"><value>地下教区</value></data>
+    <data name="Area-下层" xml:space="preserve"><value>下层</value></data>
+    <data name="Area-上层" xml:space="preserve"><value>上层</value></data>
+    <data name="Area-深渊灵龛" xml:space="preserve"><value>深渊灵龛</value></data>
+    <data name="Area-枯萎林区" xml:space="preserve"><value>枯萎林区</value></data>
+    <data name="Area-净地" xml:space="preserve"><value>净地</value></data>
+
 </root>

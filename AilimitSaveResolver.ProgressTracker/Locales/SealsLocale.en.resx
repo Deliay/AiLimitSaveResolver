@@ -17,4 +17,253 @@
     <data name="NormalSeal" xml:space="preserve">
         <value>Normal Seal</value>
     </data>
+    <data name="1000" xml:space="preserve">
+        <value>Seal of Newborn</value>
+    </data>
+    <data name="1010" xml:space="preserve">
+        <value>Standard Seal of Blader</value>
+    </data>
+    <data name="1011" xml:space="preserve">
+        <value>Standard Seal of Blader</value>
+    </data>
+    <data name="1012" xml:space="preserve">
+        <value>Standard Seal of Blader</value>
+    </data>
+    <data name="1013" xml:space="preserve">
+        <value>Standard Seal of Blader</value>
+    </data>
+    <data name="1014" xml:space="preserve">
+        <value>Standard Seal of Blader</value>
+    </data>
+    <data name="1015" xml:space="preserve">
+        <value>Standard Seal of Blader</value>
+    </data>
+    <data name="1020" xml:space="preserve">
+        <value>Seal of Pilgrim</value>
+    </data>
+    <data name="1021" xml:space="preserve">
+        <value>Seal of Pilgrim</value>
+    </data>
+    <data name="1022" xml:space="preserve">
+        <value>Seal of Pilgrim</value>
+    </data>
+    <data name="1023" xml:space="preserve">
+        <value>Seal of Pilgrim</value>
+    </data>
+    <data name="1024" xml:space="preserve">
+        <value>Seal of Pilgrim</value>
+    </data>
+    <data name="1025" xml:space="preserve">
+        <value>Seal of Pilgrim</value>
+    </data>
+    <data name="1030" xml:space="preserve">
+        <value>Seal of Executor</value>
+    </data>
+    <data name="1040" xml:space="preserve">
+        <value>Seal of Investigator</value>
+    </data>
+    <data name="1031" xml:space="preserve">
+        <value>Seal of Executor</value>
+    </data>
+    <data name="1032" xml:space="preserve">
+        <value>Seal of Executor</value>
+    </data>
+    <data name="1033" xml:space="preserve">
+        <value>Seal of Executor</value>
+    </data>
+    <data name="1034" xml:space="preserve">
+        <value>Seal of Executor</value>
+    </data>
+    <data name="1035" xml:space="preserve">
+        <value>Seal of Executor</value>
+    </data>
+    <data name="1041" xml:space="preserve">
+        <value>Seal of Investigator</value>
+    </data>
+    <data name="1042" xml:space="preserve">
+        <value>Seal of Investigator</value>
+    </data>
+    <data name="1043" xml:space="preserve">
+        <value>Seal of Investigator</value>
+    </data>
+    <data name="1045" xml:space="preserve">
+        <value>Seal of Investigator</value>
+    </data>
+    <data name="1044" xml:space="preserve">
+        <value>Seal of Investigator</value>
+    </data>
+    <data name="1050" xml:space="preserve">
+        <value>Seal of The Tree</value>
+    </data>
+    <data name="1051" xml:space="preserve">
+        <value>Seal of The Tree</value>
+    </data>
+    <data name="1053" xml:space="preserve">
+        <value>Seal of The Tree</value>
+    </data>
+    <data name="1052" xml:space="preserve">
+        <value>Seal of The Tree</value>
+    </data>
+    <data name="1054" xml:space="preserve">
+        <value>Seal of The Tree</value>
+    </data>
+    <data name="1055" xml:space="preserve">
+        <value>Seal of The Tree</value>
+    </data>
+    <data name="1060" xml:space="preserve">
+        <value>Seal of Clergies</value>
+    </data>
+    <data name="1061" xml:space="preserve">
+        <value>Seal of Clergies</value>
+    </data>
+    <data name="1062" xml:space="preserve">
+        <value>Seal of Clergies</value>
+    </data>
+    <data name="1063" xml:space="preserve">
+        <value>Seal of Clergies</value>
+    </data>
+    <data name="1064" xml:space="preserve">
+        <value>Seal of Clergies</value>
+    </data>
+    <data name="1065" xml:space="preserve">
+        <value>Seal of Clergies</value>
+    </data>
+    <data name="2001" xml:space="preserve">
+        <value>Breath of Life</value>
+    </data>
+    <data name="2002" xml:space="preserve">
+        <value>Tide of Life</value>
+    </data>
+    <data name="2003" xml:space="preserve">
+        <value>Torrent of Life</value>
+    </data>
+    <data name="2004" xml:space="preserve">
+        <value>Meta Stability</value>
+    </data>
+    <data name="2005" xml:space="preserve">
+        <value>Stability</value>
+    </data>
+    <data name="2006" xml:space="preserve">
+        <value>Hyper Stability</value>
+    </data>
+    <data name="2007" xml:space="preserve">
+        <value>Sand Accumulator</value>
+    </data>
+    <data name="2008" xml:space="preserve">
+        <value>Stone Builder</value>
+    </data>
+    <data name="2009" xml:space="preserve">
+        <value>Gold Hoarder</value>
+    </data>
+    <data name="2010" xml:space="preserve">
+        <value>Hardened Skin</value>
+    </data>
+    <data name="2011" xml:space="preserve">
+        <value>Steel Shell</value>
+    </data>
+    <data name="2012" xml:space="preserve">
+        <value>Divine Guardian</value>
+    </data>
+    <data name="2013" xml:space="preserve">
+        <value>Drizzle</value>
+    </data>
+    <data name="2014" xml:space="preserve">
+        <value>Quagmire</value>
+    </data>
+    <data name="2015" xml:space="preserve">
+        <value>Submerged Coffin</value>
+    </data>
+    <data name="2016" xml:space="preserve">
+        <value>Inertia Transformation</value>
+    </data>
+    <data name="2017" xml:space="preserve">
+        <value>Neutral Transformation</value>
+    </data>
+    <data name="2018" xml:space="preserve">
+        <value>Insulation Transformation</value>
+    </data>
+    <data name="2019" xml:space="preserve">
+        <value>Brief Polymerization</value>
+    </data>
+    <data name="2020" xml:space="preserve">
+        <value>Brief Condensation</value>
+    </data>
+    <data name="2021" xml:space="preserve">
+        <value>Precipitation</value>
+    </data>
+    <data name="2022" xml:space="preserve">
+        <value>Jade Form</value>
+    </data>
+    <data name="2023" xml:space="preserve">
+        <value>Emerald Form</value>
+    </data>
+    <data name="2024" xml:space="preserve">
+        <value>Moon Dew</value>
+    </data>
+    <data name="2025" xml:space="preserve">
+        <value>Moon Radiance</value>
+    </data>
+    <data name="2026" xml:space="preserve">
+        <value>Cold Therapy</value>
+    </data>
+    <data name="2027" xml:space="preserve">
+        <value>Cleansing Therapy</value>
+    </data>
+    <data name="2028" xml:space="preserve">
+        <value>Harsh Voice</value>
+    </data>
+    <data name="2029" xml:space="preserve">
+        <value>Ethereal Tone</value>
+    </data>
+    <data name="2030" xml:space="preserve">
+        <value>Deadwood Form</value>
+    </data>
+    <data name="2031" xml:space="preserve">
+        <value>Monolith Form</value>
+    </data>
+    <data name="2032" xml:space="preserve">
+        <value>Burst</value>
+    </data>
+    <data name="2033" xml:space="preserve">
+        <value>Collapse</value>
+    </data>
+    <data name="2034" xml:space="preserve">
+        <value>Slayer</value>
+    </data>
+    <data name="2035" xml:space="preserve">
+        <value>Tyrant</value>
+    </data>
+    <data name="2036" xml:space="preserve">
+        <value>Ingestion</value>
+    </data>
+    <data name="2037" xml:space="preserve">
+        <value>Gluttony</value>
+    </data>
+    <data name="2038" xml:space="preserve">
+        <value>Conversion</value>
+    </data>
+    <data name="2039" xml:space="preserve">
+        <value>Deviation</value>
+    </data>
+    <data name="2040" xml:space="preserve">
+        <value>Variation</value>
+    </data>
+    <data name="2041" xml:space="preserve">
+        <value>Scattered Stars</value>
+    </data>
+    <data name="2042" xml:space="preserve">
+        <value>Everlasting Piercing</value>
+    </data>
+    <data name="2043" xml:space="preserve">
+        <value>Fortified Shield</value>
+    </data>
+    <data name="2044" xml:space="preserve">
+        <value>Thunder Mastery</value>
+    </data>
+    <data name="2045" xml:space="preserve">
+        <value>Gush</value>
+    </data>
+    <data name="2046" xml:space="preserve">
+        <value>Nova</value>
+    </data>
 </root>

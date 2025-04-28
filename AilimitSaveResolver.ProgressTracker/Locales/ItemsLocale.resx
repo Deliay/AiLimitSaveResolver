@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <root>
-    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <xsd:element name="root" msdata:IsDataSet="true">
-            
+
         </xsd:element>
     </xsd:schema>
     <resheader name="resmimetype">
@@ -13,9 +14,113 @@
         <value>1.3</value>
     </resheader>
     <resheader name="reader">
-        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
     </resheader>
     <resheader name="writer">
-        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
     </resheader>
+    <data name="1" xml:space="preserve"><value>生命结露</value></data>
+    <data name="2" xml:space="preserve"><value>原浆团</value></data>
+    <data name="3" xml:space="preserve"><value>盐渍原浆团</value></data>
+    <data name="4" xml:space="preserve"><value>圣餐</value></data>
+    <data name="5" xml:space="preserve"><value>石块</value></data>
+    <data name="6" xml:space="preserve"><value>爆炸球</value></data>
+    <data name="7" xml:space="preserve"><value>简易诱电</value></data>
+    <data name="8" xml:space="preserve"><value>纯净结晶</value></data>
+    <data name="9" xml:space="preserve"><value>磁暴匣</value></data>
+    <data name="10" xml:space="preserve"><value>稳固剂</value></data>
+    <data name="11" xml:space="preserve"><value>失活胎种</value></data>
+    <data name="12" xml:space="preserve"><value>混乱胎种</value></data>
+    <data name="13" xml:space="preserve"><value>简易燃火</value></data>
+    <data name="14" xml:space="preserve"><value>解毒剂</value></data>
+    <data name="15" xml:space="preserve"><value>淬毒针</value></data>
+    <data name="16" xml:space="preserve"><value>磷火飞镖</value></data>
+    <data name="17" xml:space="preserve"><value>圣子之血结晶</value></data>
+    <data name="18" xml:space="preserve"><value>尖啸核</value></data>
+    <data name="19" xml:space="preserve"><value>简易落雷</value></data>
+    <data name="20" xml:space="preserve"><value>简易雷电球</value></data>
+    <data name="25" xml:space="preserve"><value>折断的枝条</value></data>
+    <data name="26" xml:space="preserve"><value>矿石钟</value></data>
+    <data name="101" xml:space="preserve"><value>发光碳块</value></data>
+    <data name="102" xml:space="preserve"><value>发光钻石</value></data>
+    <data name="103" xml:space="preserve"><value>发光硅石</value></data>
+    <data name="104" xml:space="preserve"><value>虹光</value></data>
+    <data name="105" xml:space="preserve"><value>微小共鸣</value></data>
+    <data name="106" xml:space="preserve"><value>历时共鸣</value></data>
+    <data name="107" xml:space="preserve"><value>传承共鸣</value></data>
+    <data name="108" xml:space="preserve"><value>自适应片段</value></data>
+    <data name="2001" xml:space="preserve"><value>标准术式框架</value></data>
+    <data name="2002" xml:space="preserve"><value>反击力场</value></data>
+    <data name="2003" xml:space="preserve"><value>结盾</value></data>
+    <data name="2004" xml:space="preserve"><value>缠雷瞬步</value></data>
+    <data name="2005" xml:space="preserve"><value>穿刺爪</value></data>
+    <data name="2008" xml:space="preserve"><value>净化的土壤</value></data>
+    <data name="2009" xml:space="preserve"><value>结露精髓</value></data>
+    <data name="2010" xml:space="preserve"><value>刻印金针</value></data>
+    <data name="2012" xml:space="preserve"><value>鱼鹰徽章</value></data>
+    <data name="2013" xml:space="preserve"><value>旧地图</value></data>
+    <data name="2014" xml:space="preserve"><value>结晶新芽</value></data>
+    <data name="2015" xml:space="preserve"><value>老旧的定位环</value></data>
+    <data name="2016" xml:space="preserve"><value>营养方块</value></data>
+    <data name="2017" xml:space="preserve"><value>地下教区契约书</value></data>
+    <data name="2018" xml:space="preserve"><value>地城水道契约书</value></data>
+    <data name="2019" xml:space="preserve"><value>行商地图</value></data>
+    <data name="2020" xml:space="preserve"><value>存活的花种</value></data>
+    <data name="2021" xml:space="preserve"><value>无名的花朵</value></data>
+    <data name="2022" xml:space="preserve"><value>金色枝条</value></data>
+    <data name="2023" xml:space="preserve"><value>淡蓝枝条</value></data>
+    <data name="2024" xml:space="preserve"><value>幽暗枝条</value></data>
+    <data name="2025" xml:space="preserve"><value>布偶兔阿丽莎</value></data>
+    <data name="2026" xml:space="preserve"><value>伪身残骸</value></data>
+    <data name="2027" xml:space="preserve"><value>亚德米勒的徽章</value></data>
+    <data name="2028" xml:space="preserve"><value>样本观测记录</value></data>
+    <data name="2029" xml:space="preserve"><value>旧记事本</value></data>
+    <data name="2100" xml:space="preserve"><value>覆水街道的土壤</value></data>
+    <data name="2101" xml:space="preserve"><value>枯萎林区的土壤</value></data>
+    <data name="2102" xml:space="preserve"><value>地下教区的土壤</value></data>
+    <data name="2103" xml:space="preserve"><value>薄暮山的土壤</value></data>
+    <data name="2104" xml:space="preserve"><value>植物园的土壤</value></data>
+    <data name="2105" xml:space="preserve"><value>地铁站的土壤</value></data>
+    <data name="2106" xml:space="preserve"><value>地城水道的土壤</value></data>
+    <data name="2601" xml:space="preserve"><value>蓄水池的钥匙</value></data>
+    <data name="2602" xml:space="preserve"><value>植物园的钥匙</value></data>
+    <data name="2603" xml:space="preserve"><value>墓园的钥匙</value></data>
+    <data name="2604" xml:space="preserve"><value>藏身处的钥匙</value></data>
+    <data name="2606" xml:space="preserve"><value>控制台的钥匙</value></data>
+    <data name="2607" xml:space="preserve"><value>重症病房的钥匙</value></data>
+    <data name="2608" xml:space="preserve"><value>监察者徽记</value></data>
+    <data name="2610" xml:space="preserve"><value>专线列车票</value></data>
+    <data name="2611" xml:space="preserve"><value>列车通行证</value></data>
+    <data name="2612" xml:space="preserve"><value>试验场的钥匙</value></data>
+    <data name="1001" xml:space="preserve"><value>结晶残骸</value></data>
+    <data name="1002" xml:space="preserve"><value>机械零件</value></data>
+    <data name="1003" xml:space="preserve"><value>结晶盘</value></data>
+    <data name="1004" xml:space="preserve"><value>噪声磁带</value></data>
+    <data name="1005" xml:space="preserve"><value>盐砖</value></data>
+    <data name="1006" xml:space="preserve"><value>磁带播放器</value></data>
+    <data name="1007" xml:space="preserve"><value>牧羊者牌照</value></data>
+    <data name="1008" xml:space="preserve"><value>圣职者假面</value></data>
+    <data name="1009" xml:space="preserve"><value>二十面骰子</value></data>
+    <data name="1010" xml:space="preserve"><value>结晶指骨</value></data>
+    <data name="1011" xml:space="preserve"><value>死鳞</value></data>
+    <data name="1012" xml:space="preserve"><value>结晶簇</value></data>
+    <data name="1013" xml:space="preserve"><value>浮空核心</value></data>
+    <data name="1014" xml:space="preserve"><value>酒</value></data>
+    <data name="1015" xml:space="preserve"><value>星骸</value></data>
+    <data name="1016" xml:space="preserve"><value>明净圣杯</value></data>
+    <data name="1038" xml:space="preserve"><value>《授火事典》其一</value></data>
+    <data name="1039" xml:space="preserve"><value>《授火事典》其二</value></data>
+    <data name="1040" xml:space="preserve"><value>《授火事典》其三</value></data>
+    <data name="1041" xml:space="preserve"><value>《授火事典》其四</value></data>
+    <data name="1042" xml:space="preserve"><value>《授火事典》其五</value></data>
+    <data name="1043" xml:space="preserve"><value>《授火事典》其六</value></data>
+    <data name="1044" xml:space="preserve"><value>《授火事典》其七</value></data>
+    <data name="1045" xml:space="preserve"><value>《授火事典》其八</value></data>
+    <data name="1046" xml:space="preserve"><value>《授火事典》其九</value></data>
+    <data name="1047" xml:space="preserve"><value>《授火事典》其十</value></data>
+    <data name="1048" xml:space="preserve"><value>《授火事典》其十一</value></data>
 </root>

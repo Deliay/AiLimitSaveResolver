@@ -1,0 +1,140 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="2" xml:space="preserve"><value>Mud Ball</value></data>
+    <data name="3" xml:space="preserve"><value>Salted Mud Ball</value></data>
+    <data name="4" xml:space="preserve"><value>Eucharist</value></data>
+    <data name="5" xml:space="preserve"><value>Stone</value></data>
+    <data name="6" xml:space="preserve"><value>Mini Bomb</value></data>
+    <data name="7" xml:space="preserve"><value>Portable Electrification</value></data>
+    <data name="8" xml:space="preserve"><value>Pure Crystal</value></data>
+    <data name="9" xml:space="preserve"><value>Magnetic Surge</value></data>
+    <data name="10" xml:space="preserve"><value>Stabilizer</value></data>
+    <data name="11" xml:space="preserve"><value>Devitalized Fetus</value></data>
+    <data name="12" xml:space="preserve"><value>Disordered Fetus</value></data>
+    <data name="13" xml:space="preserve"><value>Portable Ignition</value></data>
+    <data name="14" xml:space="preserve"><value>Antidote</value></data>
+    <data name="15" xml:space="preserve"><value>Envenomed Needle</value></data>
+    <data name="16" xml:space="preserve"><value>Phosphorous Dart</value></data>
+    <data name="17" xml:space="preserve"><value>Sacred Blood Crystal</value></data>
+    <data name="18" xml:space="preserve"><value>Shriek Core</value></data>
+    <data name="19" xml:space="preserve"><value>Portable Lightning Bolt</value></data>
+    <data name="20" xml:space="preserve"><value>Portable Lightning Orb</value></data>
+    <data name="25" xml:space="preserve"><value>Broken Branch</value></data>
+    <data name="26" xml:space="preserve"><value>Ore Bell</value></data>
+    <data name="101" xml:space="preserve"><value>Luminous Carbon</value></data>
+    <data name="102" xml:space="preserve"><value>Luminous Diamond</value></data>
+    <data name="103" xml:space="preserve"><value>Luminous Silica</value></data>
+    <data name="104" xml:space="preserve"><value>Iridescence</value></data>
+    <data name="105" xml:space="preserve"><value>Tiny Resonance</value></data>
+    <data name="106" xml:space="preserve"><value>Contemporary Resonance</value></data>
+    <data name="107" xml:space="preserve"><value>Hereditary Resonance</value></data>
+    <data name="108" xml:space="preserve"><value>Adaptive Fragment</value></data>
+    <data name="2001" xml:space="preserve"><value>Standard Spell Frame</value></data>
+    <data name="2002" xml:space="preserve"><value>Counter Field</value></data>
+    <data name="2003" xml:space="preserve"><value>Shield</value></data>
+    <data name="2004" xml:space="preserve"><value>Thunder Step</value></data>
+    <data name="2005" xml:space="preserve"><value>Piercing Claw</value></data>
+    <data name="2008" xml:space="preserve"><value>Purified Soil</value></data>
+    <data name="2009" xml:space="preserve"><value>Dew Essence</value></data>
+    <data name="2010" xml:space="preserve"><value>Seal Needle</value></data>
+    <data name="2012" xml:space="preserve"><value>Osprey Badge</value></data>
+    <data name="2013" xml:space="preserve"><value>Ancient Map</value></data>
+    <data name="2014" xml:space="preserve"><value>Crystal Sprout</value></data>
+    <data name="2015" xml:space="preserve"><value>Old Locater Ring</value></data>
+    <data name="2016" xml:space="preserve"><value>Nutrition Cube</value></data>
+    <data name="2017" xml:space="preserve"><value>Covenant</value></data>
+    <data name="2018" xml:space="preserve"><value>Covenant</value></data>
+    <data name="2019" xml:space="preserve"><value>Merchant`s Map</value></data>
+    <data name="2020" xml:space="preserve"><value>Living Seed</value></data>
+    <data name="2021" xml:space="preserve"><value>Nameless Flower</value></data>
+    <data name="2022" xml:space="preserve"><value>Golden Branch</value></data>
+    <data name="2023" xml:space="preserve"><value>Azure Branch</value></data>
+    <data name="2024" xml:space="preserve"><value>Dark Branch</value></data>
+    <data name="2025" xml:space="preserve"><value>Bunny Doll Arrisa</value></data>
+    <data name="2026" xml:space="preserve"><value>Vessel Remains</value></data>
+    <data name="2027" xml:space="preserve"><value>Adrammelech`s Badge</value></data>
+    <data name="2028" xml:space="preserve"><value>Observation Record</value></data>
+    <data name="2029" xml:space="preserve"><value>Old Notepad</value></data>
+    <data name="2100" xml:space="preserve"><value>Soil</value></data>
+    <data name="2101" xml:space="preserve"><value>Soil</value></data>
+    <data name="2102" xml:space="preserve"><value>Soil</value></data>
+    <data name="2103" xml:space="preserve"><value>Soil</value></data>
+    <data name="2104" xml:space="preserve"><value>Soil</value></data>
+    <data name="2105" xml:space="preserve"><value>Soil</value></data>
+    <data name="2106" xml:space="preserve"><value>Soil</value></data>
+    <data name="1001" xml:space="preserve"><value>Crystallized Remains</value></data>
+    <data name="1002" xml:space="preserve"><value>Mechanical Part</value></data>
+    <data name="1003" xml:space="preserve"><value>Crystallized Disc</value></data>
+    <data name="1004" xml:space="preserve"><value>Noise Tape</value></data>
+    <data name="1005" xml:space="preserve"><value>Salt Brick</value></data>
+    <data name="1006" xml:space="preserve"><value>Tape Player</value></data>
+    <data name="1007" xml:space="preserve"><value>Shepherd`s Tag</value></data>
+    <data name="1008" xml:space="preserve"><value>Clergy Mask</value></data>
+    <data name="1009" xml:space="preserve"><value>Twenty-Sided Dice</value></data>
+    <data name="1010" xml:space="preserve"><value>Crystallized Bone</value></data>
+    <data name="1011" xml:space="preserve"><value>Chipped Chitinous</value></data>
+    <data name="1012" xml:space="preserve"><value>Crystallized Cluster</value></data>
+    <data name="1013" xml:space="preserve"><value>Levitating Core</value></data>
+    <data name="1014" xml:space="preserve"><value>Alcohol</value></data>
+    <data name="1015" xml:space="preserve"><value>Stellar Remains</value></data>
+    <data name="1016" xml:space="preserve"><value>Cleansing Chalice</value></data>
+    <data name="1038" xml:space="preserve"><value>Firebearer`s Codex, Part I</value></data>
+    <data name="1039" xml:space="preserve"><value>Firebearer`s Codex, Part II</value></data>
+    <data name="1040" xml:space="preserve"><value>Firebearer`s Codex, Part III</value></data>
+    <data name="1041" xml:space="preserve"><value>Firebearer`s Codex, Part IV</value></data>
+    <data name="1042" xml:space="preserve"><value>Firebearer`s Codex, Part V</value></data>
+    <data name="1043" xml:space="preserve"><value>Firebearer`s Codex, Part VI</value></data>
+    <data name="1044" xml:space="preserve"><value>Firebearer`s Codex, Part VII</value></data>
+    <data name="1045" xml:space="preserve"><value>Firebearer`s Codex, Part VIII</value></data>
+    <data name="1046" xml:space="preserve"><value>Firebearer`s Codex, Part IX</value></data>
+    <data name="1047" xml:space="preserve"><value>Firebearer`s Codex, Part X</value></data>
+    <data name="1048" xml:space="preserve"><value>Firebearer`s Codex, Part XI</value></data>
+    <data name="1" xml:space="preserve">
+        <value>Life Dew</value>
+    </data>
+    <data name="2606" xml:space="preserve">
+        <value>Console Key</value>
+    </data>
+    <data name="2612" xml:space="preserve">
+        <value>Laboratory Key</value>
+    </data>
+    <data name="2611" xml:space="preserve">
+        <value>Train Pass</value>
+    </data>
+    <data name="2610" xml:space="preserve">
+        <value>Train Ticket</value>
+    </data>
+    <data name="2608" xml:space="preserve">
+        <value>Inspector's Emblem</value>
+    </data>
+    <data name="2607" xml:space="preserve">
+        <value>Ward Key</value>
+    </data>
+    <data name="2603" xml:space="preserve">
+        <value>Cemetory Key</value>
+    </data>
+    <data name="2602" xml:space="preserve">
+        <value>Arbortum Key</value>
+    </data>
+    <data name="2601" xml:space="preserve">
+        <value>Reservior Key</value>
+    </data>
+    <data name="2604" xml:space="preserve">
+        <value>Hideout Key</value>
+    </data>
+</root>

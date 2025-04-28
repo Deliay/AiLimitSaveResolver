@@ -18,4 +18,22 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    <data name="1" xml:space="preserve"><value>电磁炮</value></data>
+    <data name="2" xml:space="preserve"><value>部分重构</value></data>
+    <data name="3" xml:space="preserve"><value>龙卷雷爆</value></data>
+    <data name="4" xml:space="preserve"><value>惩戒雷枪</value></data>
+    <data name="5" xml:space="preserve"><value>雷击</value></data>
+    <data name="6" xml:space="preserve"><value>大地爆焰</value></data>
+    <data name="7" xml:space="preserve"><value>雷霆大锤</value></data>
+    <data name="8" xml:space="preserve"><value>火焰喷射</value></data>
+    <data name="9" xml:space="preserve"><value>散爆光鳞</value></data>
+    <data name="10" xml:space="preserve"><value>雷球云群</value></data>
+    <data name="11" xml:space="preserve"><value>幽光球</value></data>
+    <data name="12" xml:space="preserve"><value>幽光线</value></data>
+    <data name="13" xml:space="preserve"><value>极小苦痛</value></data>
+    <data name="14" xml:space="preserve"><value>先驱之誓</value></data>
+    <data name="15" xml:space="preserve"><value>燃火</value></data>
+    <data name="16" xml:space="preserve"><value>诱电</value></data>
+    <data name="17" xml:space="preserve"><value>飞弹连射</value></data>
+    <data name="18" xml:space="preserve"><value>超电磁炮</value></data>
 </root>

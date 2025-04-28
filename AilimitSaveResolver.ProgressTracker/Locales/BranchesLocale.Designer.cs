@@ -50,5 +50,491 @@ namespace AilimitSaveResolver.ProgressTracker.Locales {
                 return ResourceManager.GetString("AreaName", resourceCulture);
             }
         }
+        
+        internal static string Branch_集水区 {
+            get {
+                return ResourceManager.GetString("Branch-集水区", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_维修通道 {
+            get {
+                return ResourceManager.GetString("Branch-维修通道", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_大蓄水池 {
+            get {
+                return ResourceManager.GetString("Branch-大蓄水池", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_上行电梯前 {
+            get {
+                return ResourceManager.GetString("Branch-上行电梯前", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_水道路旁 {
+            get {
+                return ResourceManager.GetString("Branch-水道路旁", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_沉淀池 {
+            get {
+                return ResourceManager.GetString("Branch-沉淀池", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_狩猎场 {
+            get {
+                return ResourceManager.GetString("Branch-狩猎场", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_地层裂隙 {
+            get {
+                return ResourceManager.GetString("Branch-地层裂隙", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_中央车站 {
+            get {
+                return ResourceManager.GetString("Branch-中央车站", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_隐秘站台 {
+            get {
+                return ResourceManager.GetString("Branch-隐秘站台", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_地下深井 {
+            get {
+                return ResourceManager.GetString("Branch-地下深井", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_圣树之门 {
+            get {
+                return ResourceManager.GetString("Branch-圣树之门", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_中央花园 {
+            get {
+                return ResourceManager.GetString("Branch-中央花园", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_朝圣小径 {
+            get {
+                return ResourceManager.GetString("Branch-朝圣小径", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_临时营地 {
+            get {
+                return ResourceManager.GetString("Branch-临时营地", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_废屋群 {
+            get {
+                return ResourceManager.GetString("Branch-废屋群", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_墓园 {
+            get {
+                return ResourceManager.GetString("Branch-墓园", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_入城通道 {
+            get {
+                return ResourceManager.GetString("Branch-入城通道", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_工厂旁路 {
+            get {
+                return ResourceManager.GetString("Branch-工厂旁路", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_装配车间 {
+            get {
+                return ResourceManager.GetString("Branch-装配车间", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_雪莉的房间 {
+            get {
+                return ResourceManager.GetString("Branch-雪莉的房间", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_研究所 {
+            get {
+                return ResourceManager.GetString("Branch-研究所", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_地下试验场 {
+            get {
+                return ResourceManager.GetString("Branch-地下试验场", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_停机坪 {
+            get {
+                return ResourceManager.GetString("Branch-停机坪", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_渔夫营地 {
+            get {
+                return ResourceManager.GetString("Branch-渔夫营地", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_休息室 {
+            get {
+                return ResourceManager.GetString("Branch-休息室", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_交界桥 {
+            get {
+                return ResourceManager.GetString("Branch-交界桥", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_旅店走廊 {
+            get {
+                return ResourceManager.GetString("Branch-旅店走廊", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_观景阳台 {
+            get {
+                return ResourceManager.GetString("Branch-观景阳台", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_幸存者据点 {
+            get {
+                return ResourceManager.GetString("Branch-幸存者据点", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_商业街 {
+            get {
+                return ResourceManager.GetString("Branch-商业街", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_东侧广场 {
+            get {
+                return ResourceManager.GetString("Branch-东侧广场", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_以金广场 {
+            get {
+                return ResourceManager.GetString("Branch-以金广场", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_下行电梯 {
+            get {
+                return ResourceManager.GetString("Branch-下行电梯", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_大厦底层 {
+            get {
+                return ResourceManager.GetString("Branch-大厦底层", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_教区大道 {
+            get {
+                return ResourceManager.GetString("Branch-教区大道", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_壁画前 {
+            get {
+                return ResourceManager.GetString("Branch-壁画前", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_教区车站 {
+            get {
+                return ResourceManager.GetString("Branch-教区车站", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_活物池塘 {
+            get {
+                return ResourceManager.GetString("Branch-活物池塘", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_审判厅 {
+            get {
+                return ResourceManager.GetString("Branch-审判厅", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_主教通道 {
+            get {
+                return ResourceManager.GetString("Branch-主教通道", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_净灵阶梯 {
+            get {
+                return ResourceManager.GetString("Branch-净灵阶梯", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_断层回廊 {
+            get {
+                return ResourceManager.GetString("Branch-断层回廊", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_献晶所 {
+            get {
+                return ResourceManager.GetString("Branch-献晶所", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_自塑殿堂 {
+            get {
+                return ResourceManager.GetString("Branch-自塑殿堂", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_未然领域 {
+            get {
+                return ResourceManager.GetString("Branch-未然领域", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_终礼步道 {
+            get {
+                return ResourceManager.GetString("Branch-终礼步道", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_至上天顶 {
+            get {
+                return ResourceManager.GetString("Branch-至上天顶", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_圣坛 {
+            get {
+                return ResourceManager.GetString("Branch-圣坛", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_沉眠阵列 {
+            get {
+                return ResourceManager.GetString("Branch-沉眠阵列", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_监视塔 {
+            get {
+                return ResourceManager.GetString("Branch-监视塔", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_底层灵龛 {
+            get {
+                return ResourceManager.GetString("Branch-底层灵龛", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_坍塌巨洞 {
+            get {
+                return ResourceManager.GetString("Branch-坍塌巨洞", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_林区入口 {
+            get {
+                return ResourceManager.GetString("Branch-林区入口", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_死树林 {
+            get {
+                return ResourceManager.GetString("Branch-死树林", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_薄暮山脚 {
+            get {
+                return ResourceManager.GetString("Branch-薄暮山脚", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_猎人栈道 {
+            get {
+                return ResourceManager.GetString("Branch-猎人栈道", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_植物园 {
+            get {
+                return ResourceManager.GetString("Branch-植物园", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_天树花园 {
+            get {
+                return ResourceManager.GetString("Branch-天树花园", resourceCulture);
+            }
+        }
+        
+        internal static string Branch_环界之门 {
+            get {
+                return ResourceManager.GetString("Branch-环界之门", resourceCulture);
+            }
+        }
+        
+        internal static string Region_地城水道 {
+            get {
+                return ResourceManager.GetString("Region-地城水道", resourceCulture);
+            }
+        }
+        
+        internal static string Region_壁外废墟 {
+            get {
+                return ResourceManager.GetString("Region-壁外废墟", resourceCulture);
+            }
+        }
+        
+        internal static string Region_沉默之都_上层 {
+            get {
+                return ResourceManager.GetString("Region-沉默之都-上层", resourceCulture);
+            }
+        }
+        
+        internal static string Region_沉默之都_下层 {
+            get {
+                return ResourceManager.GetString("Region-沉默之都-下层", resourceCulture);
+            }
+        }
+        
+        internal static string Region_圣父大教堂 {
+            get {
+                return ResourceManager.GetString("Region-圣父大教堂", resourceCulture);
+            }
+        }
+        
+        internal static string Region_薄暮山 {
+            get {
+                return ResourceManager.GetString("Region-薄暮山", resourceCulture);
+            }
+        }
+        
+        internal static string Region_环界 {
+            get {
+                return ResourceManager.GetString("Region-环界", resourceCulture);
+            }
+        }
+        
+        internal static string Area_西南段 {
+            get {
+                return ResourceManager.GetString("Area-西南段", resourceCulture);
+            }
+        }
+        
+        internal static string Area_北段 {
+            get {
+                return ResourceManager.GetString("Area-北段", resourceCulture);
+            }
+        }
+        
+        internal static string Area_中段 {
+            get {
+                return ResourceManager.GetString("Area-中段", resourceCulture);
+            }
+        }
+        
+        internal static string Area_圣树庭院 {
+            get {
+                return ResourceManager.GetString("Area-圣树庭院", resourceCulture);
+            }
+        }
+        
+        internal static string Area_贫民窟 {
+            get {
+                return ResourceManager.GetString("Area-贫民窟", resourceCulture);
+            }
+        }
+        
+        internal static string Area_古代机械工厂 {
+            get {
+                return ResourceManager.GetString("Area-古代机械工厂", resourceCulture);
+            }
+        }
+        
+        internal static string Area_楼顶街 {
+            get {
+                return ResourceManager.GetString("Area-楼顶街", resourceCulture);
+            }
+        }
+        
+        internal static string Area_覆水街道 {
+            get {
+                return ResourceManager.GetString("Area-覆水街道", resourceCulture);
+            }
+        }
+        
+        internal static string Area_地下教区 {
+            get {
+                return ResourceManager.GetString("Area-地下教区", resourceCulture);
+            }
+        }
+        
+        internal static string Area_下层 {
+            get {
+                return ResourceManager.GetString("Area-下层", resourceCulture);
+            }
+        }
+        
+        internal static string Area_上层 {
+            get {
+                return ResourceManager.GetString("Area-上层", resourceCulture);
+            }
+        }
+        
+        internal static string Area_深渊灵龛 {
+            get {
+                return ResourceManager.GetString("Area-深渊灵龛", resourceCulture);
+            }
+        }
+        
+        internal static string Area_枯萎林区 {
+            get {
+                return ResourceManager.GetString("Area-枯萎林区", resourceCulture);
+            }
+        }
+        
+        internal static string Area_净地 {
+            get {
+                return ResourceManager.GetString("Area-净地", resourceCulture);
+            }
+        }
     }
 }

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <root>
-    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <xsd:element name="root" msdata:IsDataSet="true">
-            
+
         </xsd:element>
     </xsd:schema>
     <resheader name="resmimetype">
@@ -13,10 +14,14 @@
         <value>1.3</value>
     </resheader>
     <resheader name="reader">
-        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
     </resheader>
     <resheader name="writer">
-        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
     </resheader>
     <data name="MainSeal" xml:space="preserve">
         <value>主刻印</value>
@@ -24,4 +29,87 @@
     <data name="NormalSeal" xml:space="preserve">
         <value>常刻印</value>
     </data>
+    <data name="1000" xml:space="preserve"><value>新生者印记</value></data>
+    <data name="1010" xml:space="preserve"><value>标准机兵刻印</value></data>
+    <data name="1011" xml:space="preserve"><value>标准机兵刻印</value></data>
+    <data name="1012" xml:space="preserve"><value>标准机兵刻印</value></data>
+    <data name="1013" xml:space="preserve"><value>标准机兵刻印</value></data>
+    <data name="1014" xml:space="preserve"><value>标准机兵刻印</value></data>
+    <data name="1015" xml:space="preserve"><value>标准机兵刻印</value></data>
+    <data name="1020" xml:space="preserve"><value>朝圣印记</value></data>
+    <data name="1021" xml:space="preserve"><value>朝圣印记</value></data>
+    <data name="1022" xml:space="preserve"><value>朝圣印记</value></data>
+    <data name="1023" xml:space="preserve"><value>朝圣印记</value></data>
+    <data name="1024" xml:space="preserve"><value>朝圣印记</value></data>
+    <data name="1025" xml:space="preserve"><value>朝圣印记</value></data>
+    <data name="1030" xml:space="preserve"><value>代行者印记</value></data>
+    <data name="1031" xml:space="preserve"><value>代行者印记</value></data>
+    <data name="1032" xml:space="preserve"><value>代行者印记</value></data>
+    <data name="1033" xml:space="preserve"><value>代行者印记</value></data>
+    <data name="1034" xml:space="preserve"><value>代行者印记</value></data>
+    <data name="1035" xml:space="preserve"><value>代行者印记</value></data>
+    <data name="1040" xml:space="preserve"><value>研习者印记</value></data>
+    <data name="1041" xml:space="preserve"><value>研习者印记</value></data>
+    <data name="1042" xml:space="preserve"><value>研习者印记</value></data>
+    <data name="1043" xml:space="preserve"><value>研习者印记</value></data>
+    <data name="1044" xml:space="preserve"><value>研习者印记</value></data>
+    <data name="1045" xml:space="preserve"><value>研习者印记</value></data>
+    <data name="1050" xml:space="preserve"><value>圣树印记</value></data>
+    <data name="1051" xml:space="preserve"><value>圣树印记</value></data>
+    <data name="1052" xml:space="preserve"><value>圣树印记</value></data>
+    <data name="1053" xml:space="preserve"><value>圣树印记</value></data>
+    <data name="1054" xml:space="preserve"><value>圣树印记</value></data>
+    <data name="1055" xml:space="preserve"><value>圣树印记</value></data>
+    <data name="1060" xml:space="preserve"><value>圣职者印记</value></data>
+    <data name="1061" xml:space="preserve"><value>圣职者印记</value></data>
+    <data name="1062" xml:space="preserve"><value>圣职者印记</value></data>
+    <data name="1063" xml:space="preserve"><value>圣职者印记</value></data>
+    <data name="1064" xml:space="preserve"><value>圣职者印记</value></data>
+    <data name="1065" xml:space="preserve"><value>圣职者印记</value></data>
+    <data name="2001" xml:space="preserve"><value>生之息</value></data>
+    <data name="2002" xml:space="preserve"><value>生之流</value></data>
+    <data name="2003" xml:space="preserve"><value>生之潮</value></data>
+    <data name="2004" xml:space="preserve"><value>亚稳态</value></data>
+    <data name="2005" xml:space="preserve"><value>稳态</value></data>
+    <data name="2006" xml:space="preserve"><value>强稳态</value></data>
+    <data name="2007" xml:space="preserve"><value>积沙者</value></data>
+    <data name="2008" xml:space="preserve"><value>垒石者</value></data>
+    <data name="2009" xml:space="preserve"><value>屯金者</value></data>
+    <data name="2010" xml:space="preserve"><value>以身做盾</value></data>
+    <data name="2011" xml:space="preserve"><value>钢铁外壳</value></data>
+    <data name="2012" xml:space="preserve"><value>至圣守护</value></data>
+    <data name="2013" xml:space="preserve"><value>细雨</value></data>
+    <data name="2014" xml:space="preserve"><value>泥沼</value></data>
+    <data name="2015" xml:space="preserve"><value>没水棺柩</value></data>
+    <data name="2016" xml:space="preserve"><value>堕性转变</value></data>
+    <data name="2017" xml:space="preserve"><value>中性转变</value></data>
+    <data name="2018" xml:space="preserve"><value>绝缘性转变</value></data>
+    <data name="2019" xml:space="preserve"><value>短时聚合</value></data>
+    <data name="2020" xml:space="preserve"><value>短时凝结</value></data>
+    <data name="2021" xml:space="preserve"><value>凝华</value></data>
+    <data name="2022" xml:space="preserve"><value>碎玉之形</value></data>
+    <data name="2023" xml:space="preserve"><value>完璧之形</value></data>
+    <data name="2024" xml:space="preserve"><value>月露</value></data>
+    <data name="2025" xml:space="preserve"><value>月华</value></data>
+    <data name="2026" xml:space="preserve"><value>冷疗法</value></data>
+    <data name="2027" xml:space="preserve"><value>涤净疗法</value></data>
+    <data name="2028" xml:space="preserve"><value>厉声</value></data>
+    <data name="2029" xml:space="preserve"><value>幽歌</value></data>
+    <data name="2030" xml:space="preserve"><value>朽木之形</value></data>
+    <data name="2031" xml:space="preserve"><value>顽石之形</value></data>
+    <data name="2032" xml:space="preserve"><value>迸裂</value></data>
+    <data name="2033" xml:space="preserve"><value>崩塌</value></data>
+    <data name="2034" xml:space="preserve"><value>杀生者</value></data>
+    <data name="2035" xml:space="preserve"><value>暴君</value></data>
+    <data name="2036" xml:space="preserve"><value>摄食</value></data>
+    <data name="2037" xml:space="preserve"><value>暴食</value></data>
+    <data name="2038" xml:space="preserve"><value>变节</value></data>
+    <data name="2039" xml:space="preserve"><value>变相</value></data>
+    <data name="2040" xml:space="preserve"><value>变奏</value></data>
+    <data name="2041" xml:space="preserve"><value>散落晨星</value></data>
+    <data name="2042" xml:space="preserve"><value>恒长穿刺</value></data>
+    <data name="2043" xml:space="preserve"><value>坚固结盾</value></data>
+    <data name="2044" xml:space="preserve"><value>精巧驭雷</value></data>
+    <data name="2045" xml:space="preserve"><value>涌泉</value></data>
+    <data name="2046" xml:space="preserve"><value>新星</value></data>
 </root>
